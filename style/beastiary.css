@@ -64,7 +64,7 @@
 }
 
 .menu-label {
-	font-size: 24px;
+	font-size: 22px;
     line-height: 32px;
 	background-color: rgba(0,0,0,0.8);
 	padding: 10px;
@@ -172,16 +172,30 @@ img.portrait {
 		margin-bottom: 4%;
 		margin-left: 4%;
 	}
+	.menu-label {
+		font-size: 16px;
+	}
+	.info {
+		font-size: 12px;
+	}
 }
 
 /* Use a media query to modify for tablets */
-@media screen and (min-width: 767px) and (max-width: 1023px) {
+@media screen and (min-width: 767px) and (max-width: 1024px) {
 	
 	.beastiary-wrapper a {
 		width: 28%;
 		aspect-ratio:5/7;
 		margin-bottom: 4%;
 		margin-left: 4%;
+	}
+	
+	.menu-label {
+		font-size: 20px;
+	}
+	
+	.info {
+		font-size: 16px;
 	}
 }
 
