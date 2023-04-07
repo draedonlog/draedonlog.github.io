@@ -1,1 +1,193 @@
 @charset "UTF-8";
+
+:root {
+	--disabled-text-color: #A2A2A2;
+	--active-text-color: #F3F3F3;
+ 	--functional-font: tahoma;
+ 	--normal-text-color: black;
+ 	--normal-text-font: tahoma;
+ 	
+ 	/* Faction Colors */
+ 	--resistance-color: #00fefe;
+ 	--godly-color: #fee700;
+ 	--leviathan-color: #009304;
+ 	--demanatus-color: #6f006b;
+ 	--unaligned-color: #ffffff;
+ 	--pyranus-color: #ff0700;
+}
+
+
+.beastiary-wrapper {
+    position: absolute;
+    left: 10%;
+    z-index: 998;
+    width: 80%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 3px solid var(--disabled-text-color);
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+.beastiary-background {
+	margin-top: -40px;
+    margin-bottom: -40px;
+	background-color: var(--active-color);
+	position: absolute;
+	z-index: 997;
+	opacity: .99;
+	width: 100%;
+	height: 100%;
+}
+
+.beastiary-wrapper a {
+	float: left;
+    color: var(--disabled-text-color);
+    text-align: center;
+    text-decoration: none;
+	position: relative;
+	z-index: 999;
+	width: 20%;
+	aspect-ratio:5/7;
+	margin-bottom: 4%;
+	margin-left: 4%;
+	border-radius: 10px;
+	box-sizing: border-box;
+	overflow: hidden;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+	display: block;
+}
+
+.menu-label {
+	font-size: 24px;
+    line-height: 32px;
+	background-color: rgba(0,0,0,0.8);
+	padding: 10px;
+	position: absolute;
+	top: calc(100% - 52px);
+	left: 0px;
+	transition: .4s;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.info {
+	text-align: left;
+	margin-left: -10px;
+	margin-right: -10px;
+	height: 100%;
+	overflow: auto;
+	font-size: 18px;
+    line-height: 24px;
+	padding: 10px;
+}
+
+.info p {
+	font-size: 14px;
+    line-height: 20px;
+}
+
+img.portrait {
+	width: 100%;
+	height: 100%;
+}
+
+.beastiary-wrapper a:hover > .menu-label {
+	top: 0px;
+	color: var(--active-text-color);
+}
+
+/* Faction borders */
+.resistance {
+	/** Animation */
+  	transition: 0.2s;
+	border: 4px solid var(--resistance-color);
+}
+
+.resistance:hover {
+	border: 2px solid var(--resistance-color);
+}
+
+.godly {
+	/** Animation */
+  	transition: 0.2s;
+	border: 4px solid var(--godly-color);
+}
+
+.godly:hover {
+	border: 2px solid var(--godly-color);
+}
+
+.leviathan {
+	/** Animation */
+  	transition: 0.2s;
+	border: 4px solid var(--leviathan-color);
+}
+
+.leviathan:hover {
+	border: 2px solid var(--leviathan-color);
+}
+
+.demanatus {
+	/** Animation */
+  	transition: 0.2s;
+	border: 4px solid var(--demanatus-color);
+}
+
+.demanatus:hover {
+	border: 2px solid var(--demanatus-color);
+}
+
+.pyranus {
+	/** Animation */
+  	transition: 0.2s;
+	border: 4px solid var(--pyranus-color);
+}
+
+.pyranus:hover {
+	border: 2px solid var(--pyranus-color);
+}
+
+.unaligned {
+	/** Animation */
+  	transition: 0.2s;
+	border: 4px solid var(--unaligned-color);
+}
+
+.unaligned:hover {
+	border: 2px solid var(--unaligned-color);
+}
+
+/* Use a media query to modify for phones */
+@media screen and (max-width: 767px) {
+	.beastiary-wrapper a {
+		width: 44%;
+		aspect-ratio:5/7;
+		margin-bottom: 4%;
+		margin-left: 4%;
+	}
+}
+
+/* Use a media query to modify for tablets */
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+	
+	.beastiary-wrapper a {
+		width: 28%;
+		aspect-ratio:5/7;
+		margin-bottom: 4%;
+		margin-left: 4%;
+	}
+}
+
+/* Use a media query to modify for tablets */
+@media screen and (max-width: 1300px) {
+	.info p {
+		display: none;
+	}
+}
