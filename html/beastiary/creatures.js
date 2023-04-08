@@ -29,7 +29,7 @@ let creatures = '{"characters":[' +
 			'"status":"Deceased",' +
 			'"origin":"Unknown",' +
 			'"race":"Celestial",' +
-			'"desc":"The daughter of Eramis and Pyranus. Aurora was often used at the enforcer of Pyranus and his will."' +
+			'"desc":"The daughter of Eramis and Pyranus. Aurora was often used as the enforcer of Pyranus and his will."' +
 		'},' +
 
 		// Bart
@@ -40,7 +40,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Barindale",' +
 			'"race":"Human",' +
-			'"desc":"The general of the Barindale army who rose from poverty. Bart is known for his cunning and skill with a sword."' +
+			'"desc":"The general of the Barindale army who rose from poverty. Bart is known for his charm and skill with a sword."' +
 		'},' +
 
 		// Book
@@ -51,7 +51,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Lothra",' +
 			'"race":"Lizardfolk",' +
-			'"desc":"Forsaken lizardfolk and cleric to Semuanya. Book has a surprisingly strong resonance with the people."' +
+			'"desc":"Forsaken lizardfolk and cleric to Semuanya. Book has a surprisingly strong resonance with people."' +
 		'},' +
 
 		// Borg
@@ -62,7 +62,7 @@ let creatures = '{"characters":[' +
 			'"status":"Deceased",' +
 			'"origin":"Rotha",' +
 			'"race":"Orc",' +
-			'"desc":"The former orc king and ruler of Rotha. Borg allied with Demanatus but never followed his orders spelling his own doom."' +
+			'"desc":"The former orc king and ruler of Rotha. Borg allied with Demanatus but never followed his orders, spelling his own doom."' +
 		'},' +
 
 		// Cultist
@@ -106,7 +106,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Unknown",' +
 			'"race":"Celestial",' +
-			'"desc":"The son of Pyranus and Eramis and god of death. Daram was sealed by Yharim using the weapon Soul Splitter for a century before being freed."' +
+			'"desc":"The son of Pyranus and Eramis and god of death. Daram was sealed by Yharim using the weapon Soul Splitter. He was later freed by team Sigma."' +
 		'},' +
 
 		// Demanatus
@@ -128,7 +128,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Unknown",' +
 			'"race":"Primordial",' +
-			'"desc":"The primordial devourer of gods. The worm like diety often feasted on large celestial bodies before being recruited by Demanatus."' +
+			'"desc":"The primordial devourer of gods. The worm-like diety often feasted on large celestial bodies before being recruited by Demanatus."' +
 		'},' +
 
 		// Dibella
@@ -139,7 +139,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Sunem",' +
 			'"race":"Tiefling",' +
-			'"desc":"The flaming teifling of team Alpha. Dibella is known for causing massive amounts of damage on any mission she is a part of."' +
+			'"desc":"The flaming tiefling of team Alpha. Dibella is known for causing massive amounts of damage on any mission she is a part of."' +
 		'},' +
 
 		// Draedon
@@ -161,7 +161,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Triven Lab",' +
 			'"race":"Jungle Dragon",' +
-			'"desc":"The clones of Yharon and grown by Draedon. This young dragons lack the hardened scales of their mother but showcase her radiant feathers."' +
+			'"desc":"The clones of Yharon and grown by Draedon. These young dragons lack the hardened scales of their mother but showcase her radiant feathers."' +
 		'},' +
 
 		// Elros
@@ -172,7 +172,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Jungle",' +
 			'"race":"Half Elf",' +
-			'"desc":"The brother of Demanatus and master of sorcery. Elros’ spell casting abilities have allowed him to gain a mastery over matter."' +
+			'"desc":"The brother of Demanatus and master of sorcery. Elros\’ spell casting abilities have allowed him to gain a mastery over matter."' +
 		'},' +
 
 		// Emmet
@@ -227,7 +227,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Lothra",' +
 			'"race":"High Elf",' +
-			'"desc":"The high elf rogue of team Alpha. Jake is a skilled marksman and is known for stealing from just about anyone."' +
+			'"desc":"The high elf rogue of team Sigma. Jake is a skilled marksman and is known for stealing from just about anyone."' +
 		'},' +
 
 		// Johnathon
@@ -238,7 +238,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Barindale",' +
 			'"race":"Human",' +
-			'"desc":"The warlock of team Alpha whos serves as team leader. Johnathon\'s intellect and quick thinking makes him a hard foe to predict."' +
+			'"desc":"The warlock of team Alpha who serves as team leader. Johnathon\'s intellect and quick thinking makes him a hard foe to predict."' +
 		'},' +
 
 		// Joseph
