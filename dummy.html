@@ -5,8 +5,10 @@
 <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"> 
 <title>Draedon's Log</title>
 <link href="style/nav.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="html/beastiary/creatures.js"></script>
+<link href="style/beastiary.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body onload="generateCards()">
 	<div class="nav">
 		<!-- Button to the map -->
         <a href="/html/map/world-map.html" class="nav-button">Map</a>
@@ -19,8 +21,52 @@
         
         <!-- Button to the data archives -->
         <a href="/html/archives/archives.html" class="nav-button">Data Archives</a>
-          
 	</div>
-
+	<div class="nav-buffer"></div>
+	
+	<!-- The Beastiary Cards -->
+    <div class="beastiary-wrapper" id="content">
+    	<div class="beastiary-background"></div>
+    </div>
 </body>
+<script type="text/javascript">
+	function generateCards() {
+		const obj = JSON.parse(creatures);
+		
+		// Creates the card
+		for (let i = 0; i < obj.characters.length; i++) {
+			const card = document.createElement("a");
+			card.href = "characters/" + obj.characters[i].file + ".html";
+			// Adds the faction border
+			card.classList.add(obj.characters[i].fact);
+			// Creates the portrait
+			const portrait = document.createElement("img");
+			portrait.src = "assets/beastiary/" + obj.characters[i].file + ".jpg";
+			portrait.classList.add("portrait")
+			card.appendChild(portrait);
+			// Creates the name label
+			const label = document.createElement("span");
+			label.classList.add("menu-label")
+			label.innerHTML = obj.characters[i].name;
+			card.appendChild(label);
+			// Creates the brief info section
+			const info = document.createElement("div");
+			info.classList.add("info");
+			info.innerHTML = "<hr>Status: ".bold() + obj.characters[i].status.italics() + "<br>"
+			+ "Origin: ".bold() + obj.characters[i].origin.italics() + "<br>"
+			+ "Race: ".bold() + obj.characters[i].race.italics() + "<hr>";
+			label.appendChild(info);
+			// Creates the description section
+			const desc = document.createElement("p");
+			desc.innerHTML = obj.characters[i].desc + "<br>" + "<br>";
+			info.appendChild(desc);
+		
+		
+			// Adds to the card list
+			const element = document.getElementById("content");
+			element.appendChild(card);
+		}
+	}
+	
+</script>
 </html>

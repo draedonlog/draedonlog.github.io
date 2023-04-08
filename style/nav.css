@@ -69,7 +69,10 @@ body {
 /* Use a media query to modify for phones */
 @media screen and (max-width: 767px) {
 	.nav a {
-		padding: 21px;
+		padding-top: 21px;
+		padding-bottom: 21px;
+		padding-right: 16px;
+		padding-left: 16px;
 		font-size: 16px;
    		line-height: 20px;
 	}
