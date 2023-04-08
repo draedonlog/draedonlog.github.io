@@ -77,7 +77,7 @@ body {
 }
 
 /* Use a media query to modify for tablets */
-@media screen and (min-width: 767px) and (max-width: 1023px) {
+@media screen and (min-width: 767px) and (max-width: 1024px) {
 	.nav a {
 		padding: 21px;
 		font-size: 20px;

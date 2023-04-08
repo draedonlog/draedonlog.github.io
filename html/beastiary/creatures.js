@@ -7,7 +7,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Jungle",' +
 			'"race":"Half Elf",' +
-			'"desc":"bruh"' +
+			'"desc":"The sister of Demanatus and daughter of Xanter. Artemis leads the resistance as the Oboran general."' +
 		'},' +
 
 		// Ashley
@@ -18,7 +18,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Barindale",' +
 			'"race":"Human",' +
-			'"desc":""' +
+			'"desc":"An orphaned child who joined Varion\'s thieving gang. Ashley is a skilled bard and a powerful illusionist."' +
 		'},' +
 
 		// Aurora
@@ -29,7 +29,7 @@ let creatures = '{"characters":[' +
 			'"status":"Deceased",' +
 			'"origin":"Unknown",' +
 			'"race":"Celestial",' +
-			'"desc":""' +
+			'"desc":"The daughter of Eramis and Pyranus. Aurora was often used at the enforcer of Pyranus and his will."' +
 		'},' +
 
 		// Bart
@@ -40,7 +40,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Barindale",' +
 			'"race":"Human",' +
-			'"desc":""' +
+			'"desc":"The general of the Barindale army who rose from poverty. Bart is known for his cunning and skill with a sword."' +
 		'},' +
 
 		// Book
@@ -51,7 +51,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Lothra",' +
 			'"race":"Lizardfolk",' +
-			'"desc":""' +
+			'"desc":"Forsaken lizardfolk and cleric to Semuanya. Book has a surprisingly strong resonance with the people."' +
 		'},' +
 
 		// Borg
@@ -62,7 +62,7 @@ let creatures = '{"characters":[' +
 			'"status":"Deceased",' +
 			'"origin":"Rotha",' +
 			'"race":"Orc",' +
-			'"desc":""' +
+			'"desc":"The former orc king and ruler of Rotha. Borg allied with Demanatus but never followed his orders spelling his own doom."' +
 		'},' +
 
 		// Cultist
@@ -73,7 +73,7 @@ let creatures = '{"characters":[' +
 			'"status":"Deceased",' +
 			'"origin":"Jungle",' +
 			'"race":"Human",' +
-			'"desc":""' +
+			'"desc":"A member of the Jungle tribe dispatched by Yharim to hold a seal on Pyranus. The cultist guarded the Stepping Stones gateway."' +
 		'},' +
 
 		// Cunter Nickel
@@ -84,7 +84,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Triven",' +
 			'"race":"Warforged",' +
-			'"desc":""' +
+			'"desc":"Former thief and friend to Varion. Cunter Nickel is a shell of what he formerly was yet maintains an impressive presence in battle."' +
 		'},' +
 
 		// Daedalus
@@ -95,7 +95,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Marione",' +
 			'"race":"Elven Demigod",' +
-			'"desc":""' +
+			'"desc":"The royal scientist of Barindale and reincarnation of the inventor of the Warforged. Deadalus\' intellect is unmatched even by Draedon."' +
 		'},' +
 
 		// Daram
@@ -106,7 +106,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Unknown",' +
 			'"race":"Celestial",' +
-			'"desc":""' +
+			'"desc":"The son of Pyranus and Eramis and god of death. Daram was sealed by Yharim using the weapon Soul Splitter for a century before being freed."' +
 		'},' +
 
 		// Demanatus
@@ -117,7 +117,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Jungle",' +
 			'"race":"Half Elf",' +
-			'"desc":""' +
+			'"desc":"The son of Xanter and Yharim. Demanatus is the most skilled warrior known to man and wielder of the void stone. He leads the Jungle tribe."' +
 		'},' +
 
 		// Devourer
@@ -128,7 +128,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Unknown",' +
 			'"race":"Primordial",' +
-			'"desc":""' +
+			'"desc":"The primordial devourer of gods. The worm like diety often feasted on large celestial bodies before being recruited by Demanatus."' +
 		'},' +
 
 		// Dibella
@@ -139,7 +139,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Sunem",' +
 			'"race":"Tiefling",' +
-			'"desc":""' +
+			'"desc":"The flaming teifling of team Alpha. Dibella is known for causing massive amounts of damage on any mission she is a part of."' +
 		'},' +
 
 		// Draedon
@@ -150,7 +150,7 @@ let creatures = '{"characters":[' +
 			'"status":"Deceased",' +
 			'"origin":"Barindale",' +
 			'"race":"Warforged",' +
-			'"desc":""' +
+			'"desc":"The creation of Daedalus and scientist of Demanatus. Draedon served as a vessel for a manifestation of the void celestial stone."' +
 		'},' +
 
 		// Dragon Folly
@@ -161,7 +161,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Triven Lab",' +
 			'"race":"Jungle Dragon",' +
-			'"desc":""' +
+			'"desc":"The clones of Yharon and grown by Draedon. This young dragons lack the hardened scales of their mother but showcase her radiant feathers."' +
 		'},' +
 
 		// Elros
@@ -172,7 +172,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Jungle",' +
 			'"race":"Half Elf",' +
-			'"desc":""' +
+			'"desc":"The brother of Demanatus and master of sorcery. Elros’ spell casting abilities have allowed him to gain a mastery over matter."' +
 		'},' +
 
 		// Emmet
@@ -183,7 +183,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Lothra",' +
 			'"race":"Wood Elf",' +
-			'"desc":""' +
+			'"desc":"The clumsy paladin to Xanter. Emmet is the clever wielder of Xarzith and Xanter’s chosen champion."' +
 		'},' +
 
 		// Eramis
@@ -194,7 +194,7 @@ let creatures = '{"characters":[' +
 			'"status":"Deceased",' +
 			'"origin":"Unknown",' +
 			'"race":"Elven Goddess",' +
-			'"desc":""' +
+			'"desc":"The former wife of Pyranus and mentor to Demanatus. Eramis gave the prophecy of Demanatus\' genocide of the gods."' +
 		'},' +
 
 		// Gnomeo
@@ -205,7 +205,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Unknown",' +
 			'"race":"Gnome",' +
-			'"desc":""' +
+			'"desc":"The curious gnome wizard from an alternate dimension. Gnomeo is known for taunting his foes rather than attacking them."' +
 		'},' +
 
 		// Goravan
@@ -216,7 +216,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Ponem",' +
 			'"race":"Goliath",' +
-			'"desc":""' +
+			'"desc":"The goliath barbarian of team Alpha. Goravan\'s lack of intelligence is made up for in his brutal strength and skill with an axe."' +
 		'},' +
 
 		// Jake
@@ -227,7 +227,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Lothra",' +
 			'"race":"High Elf",' +
-			'"desc":""' +
+			'"desc":"The high elf rogue of team Alpha. Jake is a skilled marksman and is known for stealing from just about anyone."' +
 		'},' +
 
 		// Johnathon
@@ -238,7 +238,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Barindale",' +
 			'"race":"Human",' +
-			'"desc":""' +
+			'"desc":"The warlock of team Alpha whos serves as team leader. Johnathon\'s intellect and quick thinking makes him a hard foe to predict."' +
 		'},' +
 
 		// Joseph
@@ -249,7 +249,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Keotor",' +
 			'"race":"Dwarf",' +
-			'"desc":""' +
+			'"desc":"One of the few remaining dwarves and wielder of Mjolnir. Joseph is skilled in smithing and is a powerful force."' +
 		'},' +
 
 		// Jungle Guards
@@ -260,7 +260,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Jungle",' +
 			'"race":"Human",' +
-			'"desc":""' +
+			'"desc":"The fierce enforcers of the jungle and wielders of void magic. Jungle Guards are trained personally under Demanatus."' +
 		'},' +
 
 		// Kristine
@@ -271,7 +271,7 @@ let creatures = '{"characters":[' +
 			'"status":"Deceased",' +
 			'"origin":"Marione",' +
 			'"race":"Elf",' +
-			'"desc":""' +
+			'"desc":"The princess of Marione and leader of the Council of Gods. Kristine’s compassion and leadership was renowned across the kingdoms."' +
 		'},' +
 
 		// Kronos
@@ -282,7 +282,7 @@ let creatures = '{"characters":[' +
 			'"status":"Deceased",' +
 			'"origin":"Unknown",' +
 			'"race":"Dwarven God",' +
-			'"desc":""' +
+			'"desc":"The dwarven god of time. Kronos met his end when investigating a temporal disturbance in Keotor caused by Demanatus."' +
 		'},' +
 
 		// Leviathan
@@ -293,7 +293,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Ponem",' +
 			'"race":"Goliath",' +
-			'"desc":""' +
+			'"desc":"The massive leader of the Leviathan Clan. The Leviathan is known for his brutal tactics and his use of a deadly poison."' +
 		'},' +
 
 		// Lilith
@@ -304,7 +304,7 @@ let creatures = '{"characters":[' +
 			'"status":"Deceased",' +
 			'"origin":"Marione",' +
 			'"race":"Elf",' +
-			'"desc":""' +
+			'"desc":"The mother of Varion and Daedalus. Lilith was the original wielder of Xarzith until sacrificing her soul to imprison Pyranus."' +
 		'},' +
 
 		// Marka
@@ -315,7 +315,7 @@ let creatures = '{"characters":[' +
 			'"status":"Deceased",' +
 			'"origin":"Underdark",' +
 			'"race":"Mind Flayer",' +
-			'"desc":""' +
+			'"desc":"A mind flayer responsible for mining operations in the Enchanted Mine. Marka used his abilities to brainwash his dwarven workers."' +
 		'},' +
 
 		// Nao
@@ -326,7 +326,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Obora",' +
 			'"race":"Owlbear",' +
-			'"desc":""' +
+			'"desc":"The young owlbear that accompanies Book. Nao is known for sneaking out to go and play with the Dragon Folly under Yharon\'s watch."' +
 		'},' +
 
 		// Obadiah
@@ -337,7 +337,7 @@ let creatures = '{"characters":[' +
 			'"status":"Deceased",' +
 			'"origin":"Pyranus",' +
 			'"race":"Oni",' +
-			'"desc":""' +
+			'"desc":"The oni servant of Pyranus. Obadiah and his fellow onis often disquised themselves as victims to trick others into trusting them."' +
 		'},' +
 
 		// Okraz
@@ -348,7 +348,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Regen",' +
 			'"race":"Familiar",' +
-			'"desc":""' +
+			'"desc":"The physical manifestation of the spirit of Regen. Okraz is an elemental horse meant to watch over those protected by Regen."' +
 		'},' +
 
 		// Pyranus
@@ -359,7 +359,7 @@ let creatures = '{"characters":[' +
 			'"status":"Deceased",' +
 			'"origin":"Unknown",' +
 			'"race":"Elven God",' +
-			'"desc":""' +
+			'"desc":"The elven god of fire and chaos. Pyranus was known for his tyranical ways and torture of mortals. He is responsible for the <em>Great Purge</em>."' +
 		'},' +
 
 		// Rainey
@@ -370,18 +370,18 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Obora",' +
 			'"race":"Elf",' +
-			'"desc":""' +
+			'"desc":"The daughter of Regen and skilled archer. Rainey collects artifacts as she continues to learn more about the history of the world around her."' +
 		'},' +
 
-		// Rapheal
+		// Raphael
 		'{' +
-			'"name":"Rapheal",' +
-			'"file":"rapheal",' +
+			'"name":"Raphael",' +
+			'"file":"raphael",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
 			'"origin":"Obora",' +
 			'"race":"Shifter",' +
-			'"desc":""' +
+			'"desc":"The pyromaniac and druid of team Sigma. Raphael became a fire deity after consuming a weakened heart of Pyranus."' +
 		'},' +
 
 		// Regen
@@ -392,7 +392,7 @@ let creatures = '{"characters":[' +
 			'"status":"Deceased",' +
 			'"origin":"Unknown",' +
 			'"race":"Elven Goddess",' +
-			'"desc":""' +
+			'"desc":"The elven goddess of rain and prosperity. Regen was a kind god who was often celebrated in agricultural communities."' +
 		'},' +
 
 		// Semuanya
@@ -403,7 +403,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Unknown",' +
 			'"race":"Lizardfolk God",' +
-			'"desc":""' +
+			'"desc":"The elusive patron lizardfolk god. Semuanya is known for rarely interacting with his people. He is a fierce and powerful warrior."' +
 		'},' +
 
 		// Stallion
@@ -414,7 +414,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Ponem",' +
 			'"race":"Goliath",' +
-			'"desc":""' +
+			'"desc":"The daughter of the Leviathan and former lover to Varion. Stallion is dissatisfied with a life of crime and hopes to find a love of her own."' +
 		'},' +
 
 		// Storm Weaver
@@ -425,7 +425,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Unknown",' +
 			'"race":"Dwarven God",' +
-			'"desc":""' +
+			'"desc":"The dwarven god of lightning and protector of the warforged. The Storm Weaver is a powerful god with little care for those around him."' +
 		'},' +
 
 		// Valkyries
@@ -436,7 +436,7 @@ let creatures = '{"characters":[' +
 			'"status":"Disbanded",' +
 			'"origin":"Various",' +
 			'"race":"Various",' +
-			'"desc":""' +
+			'"desc":"The skilled warriors that served under Aurora. Valkyries were known for their agility and vitality in combat."' +
 		'},' +
 
 		// Varion
@@ -447,7 +447,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Marione",' +
 			'"race":"Half Elf",' +
-			'"desc":"resistance"' +
+			'"desc":"The legendary thief and Kristine\'s groom. Varion now manages the responsibilities that once fell to his lover."' +
 		'},' +
 
 		// Victor
@@ -458,7 +458,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Triven",' +
 			'"race":"Warforged",' +
-			'"desc":""' +
+			'"desc":"The general of Triven and skilled marksman. Victor is a cold and calculating machine known for rarely missing a shot."' +
 		'},' +
 
 		// Voramir
@@ -469,7 +469,7 @@ let creatures = '{"characters":[' +
 			'"status":"Deceased",' +
 			'"origin":"Sunem",' +
 			'"race":"Desert Deity",' +
-			'"desc":""' +
+			'"desc":"The scourge of the sand dunes. Voramir was known for luring in its victims using its hallucination inducing breath."' +
 		'},' +
 
 		// Warden
@@ -480,7 +480,7 @@ let creatures = '{"characters":[' +
 			'"status":"Deceased",' +
 			'"origin":"Unknown",' +
 			'"race":"Primordial",' +
-			'"desc":""' +
+			'"desc":"The keeper of <em>The Pit</em> and warden of its prison. The warden tortured the souls trapped within the confines of his prison."' +
 		'},' +
 
 		// Xanter
@@ -491,7 +491,7 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Unknown",' +
 			'"race":"Elven Goddess",' +
-			'"desc":""' +
+			'"desc":"The elven goddess of love and former wife of Yharim. Xanter continues to spread hope and love to her people."' +
 		'},' +
 
 		// Yharim
@@ -502,7 +502,7 @@ let creatures = '{"characters":[' +
 			'"status":"Deceased",' +
 			'"origin":"Jungle",' +
 			'"race":"Human",' +
-			'"desc":""' +
+			'"desc":"The former husband of Xanter and father of Pyranus. Yharim is the original wielder of Soul Splitter and was known as a hero."' +
 		'},' +
 
 		// Yharon
@@ -513,5 +513,5 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Jungle",' +
 			'"race":"Jungle Dragon",' +
-			'"desc":""' +
+			'"desc":"The last surviving Jungle Dragon and the only friend to Demanatus. Yharon\'s power and determination are unrivaled."' +
 		'}]}';
