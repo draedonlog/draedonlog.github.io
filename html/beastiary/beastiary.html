@@ -24,12 +24,12 @@
 		// Creates the card
 		for (let i = 0; i < obj.characters.length; i++) {
 			const card = document.createElement("a");
-			card.href = "characters/" + obj.characters[i].file + ".html";
+			card.href = "creature.html?name=" + obj.characters[i].file;
 			// Adds the faction border
 			card.classList.add(obj.characters[i].fact);
 			// Creates the portrait
 			const portrait = document.createElement("img");
-			portrait.src = "/assets/beastiary/" + obj.characters[i].file + ".jpg";
+			portrait.src = "assets/beastiary/" + obj.characters[i].file + ".jpg";
 			portrait.classList.add("portrait")
 			card.appendChild(portrait);
 			// Creates the name label
@@ -46,7 +46,7 @@
 			label.appendChild(info);
 			// Creates the description section
 			const desc = document.createElement("p");
-			desc.innerHTML = obj.characters[i].desc;
+			desc.innerHTML = obj.characters[i].desc + "<br>" + "<br>";
 			info.appendChild(desc);
 		
 		

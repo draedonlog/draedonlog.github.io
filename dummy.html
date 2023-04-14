@@ -36,7 +36,7 @@
 		// Creates the card
 		for (let i = 0; i < obj.characters.length; i++) {
 			const card = document.createElement("a");
-			card.href = "characters/" + obj.characters[i].file + ".html";
+			card.href = "creature.html?name=" + obj.characters[i].file;
 			// Adds the faction border
 			card.classList.add(obj.characters[i].fact);
 			// Creates the portrait
