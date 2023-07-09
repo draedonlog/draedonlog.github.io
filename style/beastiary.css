@@ -20,6 +20,8 @@
 	text-align: left;
 	margin-left: -10px;
 	margin-right: -10px;
+	padding-left: 10px;
+	padding-right: 10px;
 	height: 100%;
 	overflow: auto;
 	font-size: 14px;
@@ -163,27 +165,6 @@
 	position: relative;
 	z-index: 999;
 	width: 200px;
-	margin-left: 20px;
-	margin-bottom: 20px;
-	aspect-ratio:5/7;
-	margin-bottom: 4%;
-	border-radius: 10px;
-	box-sizing: border-box;
-	overflow: hidden;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
-	display: block;
-}
-
-
-
-.geneneral-section {
-	float: right;
-    color: var(--active-text-color);
-    text-align: center;
-    text-decoration: none;
-	position: relative;
-	z-index: 999;
-	width: 20%;
 	margin-left: 20px;
 	margin-bottom: 20px;
 	aspect-ratio:5/7;
