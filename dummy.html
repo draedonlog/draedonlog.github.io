@@ -49,11 +49,12 @@
 	function generatePage() {
 		
 		const obj = JSON.parse(creatures);
-		const urlName = urlParams.get('name');
+		const urlName = "artemis";
 		
 		for (let i = 0; i < obj.characters.length; i++) {
-			if (urlName.equals(obj.characters[i].file)) {
+			if (urlName == obj.characters[i].file) {
 			// Creates the title block
+			//let i = 0;
 			const title = document.createElement("h1");
 			title.innerHTML = obj.characters[i].name;
 			const titleBar = document.getElementById("titleBar");

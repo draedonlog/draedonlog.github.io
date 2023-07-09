@@ -36,7 +36,7 @@
 		const urlName = urlParams.get('name');
 		
 		for (let i = 0; i < obj.characters.length; i++) {
-			if (urlName.equals(obj.characters[i].file)) {
+			if (urlName == obj.characters[i].file) {
 			// Creates the title block
 			const title = document.createElement("h1");
 			title.innerHTML = obj.characters[i].name;
