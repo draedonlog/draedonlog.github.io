@@ -3,6 +3,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Artemis",' +
 			'"file":"artemis",' +
+			'"threat":"5",' +
+			'"full":"Artemic Ulrich",' +
+			'"occupations":"Valkyrie",' +
+			'"gender":"Female",' +
+			'"age":"100",' +
+			'"companions":"None",' +
+			'"enemy":"None",' +
+			'"physical":"None",' +
+			'"entry":"None",' +
+			'"aliases":"None",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
 			'"origin":"Jungle",' +
@@ -14,6 +24,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Ashley",' +
 			'"file":"ashley",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"None",' +
 			'"fact":"unaligned",' +
 			'"status":"Alive",' +
 			'"origin":"Barindale",' +
@@ -25,6 +45,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Aurora",' +
 			'"file":"aurora",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"pyranus",' +
 			'"status":"Deceased",' +
 			'"origin":"Unknown",' +
@@ -36,6 +66,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Bart",' +
 			'"file":"bart",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
 			'"origin":"Barindale",' +
@@ -47,6 +87,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Book",' +
 			'"file":"book",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
 			'"origin":"Lothra",' +
@@ -58,6 +108,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Borg",' +
 			'"file":"borg",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"demanatus",' +
 			'"status":"Deceased",' +
 			'"origin":"Rotha",' +
@@ -69,6 +129,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Void Cultist",' +
 			'"file":"cultist",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' ++
 			'"fact":"unaligned",' +
 			'"status":"Deceased",' +
 			'"origin":"Jungle",' +
@@ -80,6 +150,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Cunter Nickel",' +
 			'"file":"cunter-nickel",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
 			'"origin":"Triven",' +
@@ -91,6 +171,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Daedalus",' +
 			'"file":"daedalus",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
 			'"origin":"Marione",' +
@@ -102,6 +192,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Daram",' +
 			'"file":"daram",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"pyranus",' +
 			'"status":"Alive",' +
 			'"origin":"Unknown",' +
@@ -113,6 +213,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Demanatus",' +
 			'"file":"demanatus",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"demanatus",' +
 			'"status":"Alive",' +
 			'"origin":"Jungle",' +
@@ -124,6 +234,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Devourer",' +
 			'"file":"devourer",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"demanatus",' +
 			'"status":"Alive",' +
 			'"origin":"Unknown",' +
@@ -135,6 +255,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Dibella",' +
 			'"file":"dibella",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
 			'"origin":"Sunem",' +
@@ -146,6 +276,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Draedon",' +
 			'"file":"draedon",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"demanatus",' +
 			'"status":"Deceased",' +
 			'"origin":"Barindale",' +
@@ -157,6 +297,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Dragon Folly",' +
 			'"file":"dragonfolly",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"unaligned",' +
 			'"status":"Alive",' +
 			'"origin":"Triven Lab",' +
@@ -168,6 +318,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Elros",' +
 			'"file":"elros",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"unaligned",' +
 			'"status":"Alive",' +
 			'"origin":"Jungle",' +
@@ -179,6 +339,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Emmet",' +
 			'"file":"emmet",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
 			'"origin":"Lothra",' +
@@ -190,6 +360,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Eramis",' +
 			'"file":"eramis",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"resistance",' +
 			'"status":"Deceased",' +
 			'"origin":"Unknown",' +
@@ -201,6 +381,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Gnomeo",' +
 			'"file":"gnomeo",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
 			'"origin":"Unknown",' +
@@ -212,6 +402,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Goravan",' +
 			'"file":"goravan",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
 			'"origin":"Ponem",' +
@@ -223,6 +423,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Jake",' +
 			'"file":"jake",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
 			'"origin":"Lothra",' +
@@ -234,6 +444,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Johnathon",' +
 			'"file":"johnathon",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
 			'"origin":"Barindale",' +
@@ -245,6 +465,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Joseph Banana",' +
 			'"file":"joseph",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
 			'"origin":"Keotor",' +
@@ -256,6 +486,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Jungle Guards",' +
 			'"file":"jungle-guard",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"demanatus",' +
 			'"status":"Alive",' +
 			'"origin":"Jungle",' +
@@ -267,6 +507,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Kristine",' +
 			'"file":"kristine",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"resistance",' +
 			'"status":"Deceased",' +
 			'"origin":"Marione",' +
@@ -278,6 +528,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Kronos",' +
 			'"file":"kronos",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"godly",' +
 			'"status":"Deceased",' +
 			'"origin":"Unknown",' +
@@ -289,6 +549,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Leviathan",' +
 			'"file":"leviathan",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"leviathan",' +
 			'"status":"Alive",' +
 			'"origin":"Ponem",' +
@@ -300,6 +570,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Lilith",' +
 			'"file":"lilith",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"unaligned",' +
 			'"status":"Deceased",' +
 			'"origin":"Marione",' +
@@ -311,6 +591,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Marka",' +
 			'"file":"marka",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"demanatus",' +
 			'"status":"Deceased",' +
 			'"origin":"Underdark",' +
@@ -322,6 +612,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Nao",' +
 			'"file":"nao",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"unaligned",' +
 			'"status":"Alive",' +
 			'"origin":"Obora",' +
@@ -333,6 +633,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Obadiah",' +
 			'"file":"oni",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"pyranus",' +
 			'"status":"Deceased",' +
 			'"origin":"Pyranus",' +
@@ -344,6 +654,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Okraz",' +
 			'"file":"okraz",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"godly",' +
 			'"status":"Alive",' +
 			'"origin":"Regen",' +
@@ -355,6 +675,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Pyranus",' +
 			'"file":"pyranus",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"pyranus",' +
 			'"status":"Deceased",' +
 			'"origin":"Unknown",' +
@@ -366,6 +696,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Rainey",' +
 			'"file":"rainey",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
 			'"origin":"Obora",' +
@@ -377,6 +717,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Raphael",' +
 			'"file":"raphael",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
 			'"origin":"Obora",' +
@@ -388,6 +738,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Regen",' +
 			'"file":"regen",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"godly",' +
 			'"status":"Deceased",' +
 			'"origin":"Unknown",' +
@@ -399,6 +759,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Semuanya",' +
 			'"file":"semuanya",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"godly",' +
 			'"status":"Alive",' +
 			'"origin":"Unknown",' +
@@ -410,6 +780,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Stallion",' +
 			'"file":"stallion",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"leviathan",' +
 			'"status":"Alive",' +
 			'"origin":"Ponem",' +
@@ -421,6 +801,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Storm Weaver",' +
 			'"file":"stormweaver",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"godly",' +
 			'"status":"Alive",' +
 			'"origin":"Unknown",' +
@@ -432,6 +822,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Valkyries",' +
 			'"file":"valkyrie",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"pyranus",' +
 			'"status":"Disbanded",' +
 			'"origin":"Various",' +
@@ -443,6 +843,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Varion",' +
 			'"file":"varion",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
 			'"origin":"Marione",' +
@@ -454,6 +864,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Victor",' +
 			'"file":"victor",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
 			'"origin":"Triven",' +
@@ -465,6 +885,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Voramir",' +
 			'"file":"voramir",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"demanatus",' +
 			'"status":"Deceased",' +
 			'"origin":"Sunem",' +
@@ -476,6 +906,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"The Warden",' +
 			'"file":"warden",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"unaligned",' +
 			'"status":"Deceased",' +
 			'"origin":"Unknown",' +
@@ -487,6 +927,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Xanter",' +
 			'"file":"xanter",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"godly",' +
 			'"status":"Alive",' +
 			'"origin":"Unknown",' +
@@ -498,17 +948,37 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Yharim",' +
 			'"file":"yharim",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"unaligned",' +
 			'"status":"Deceased",' +
 			'"origin":"Jungle",' +
 			'"race":"Human",' +
-			'"desc":"The former husband of Xanter and father of Pyranus. Yharim is the original wielder of Soul Splitter and was known as a hero."' +
+			'"desc":"The former husband of Xanter and father of Demanatus. Yharim is the original wielder of Soul Splitter and was known as a hero."' +
 		'},' +
 
 		// Yharon
 		'{' +
 			'"name":"Yharon",' +
 			'"file":"yharon",' +
+			'"threat":"5",' +
+			'"full":"",' +
+			'"occupations":"",' +
+			'"gender":"",' +
+			'"age":"",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"",' +
 			'"fact":"demanatus",' +
 			'"status":"Alive",' +
 			'"origin":"Jungle",' +

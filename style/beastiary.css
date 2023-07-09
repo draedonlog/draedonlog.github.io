@@ -16,6 +16,17 @@
  	--pyranus-color: #ff0700;
 }
 
+.introduction {
+	text-align: left;
+	margin-left: -10px;
+	margin-right: -10px;
+	height: 100%;
+	overflow: auto;
+	font-size: 18px;
+    line-height: 28px;
+	overflow: auto;
+}
+
 
 .beastiary-wrapper {
     position: absolute;
@@ -122,6 +133,26 @@
 	box-sizing: border-box;
 	overflow: hidden;
 	display: block;
+	padding-left: 2%;
+	line-height: 15px;
+	border-bottom: 2px solid var(--active-text-color);;
+}
+
+.threat-level {
+	position: absolute;
+	line-height: 20px;
+	padding-right: 2%;
+	right: 0px;
+	top: 0px;
+}
+
+.threat-indicator {
+	height: 16px;
+	width: 68px;
+	-webkit-mask-image: linear-gradient(to right, black 50%, rgba(0,0,0,.2) 50%);
+	mask-image: linear-gradient(to right, black, transparent);
+	-webkit-mask-size: 200% 100%;
+	mask-size: 200% 100%;
 }
 
 .picture {
