@@ -4,7 +4,7 @@ let creatures = '{"characters":[' +
 			'"name":"Artemis",' +
 			'"file":"artemis",' +
 			'"threat":"5",' +
-			'"full":"Artemic Ulrich",' +
+			'"full":"Artemis Ulrich",' +
 			'"occupations":"Princess of the Jungle (Formerly), Healer for the Jungle Tribe (Formerly), Valkyrie (Formerly), Oboran General",' +
 			'"gender":"Female",' +
 			'"age":"37",' +

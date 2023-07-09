@@ -150,7 +150,7 @@
 	height: 16px;
 	width: 68px;
 	-webkit-mask-image: linear-gradient(to right, black 50%, rgba(0,0,0,.2) 50%);
-	mask-image: linear-gradient(to right, black, transparent);
+	mask-image: linear-gradient(to right, black 50%, rgba(0,0,0,.2) 50%);
 	-webkit-mask-size: 200% 100%;
 	mask-size: 200% 100%;
 }
@@ -318,6 +318,10 @@ img.portrait {
 		font-size: 14px;
 		line-height: 16px;
 	}
+	
+	.picture {
+		width: 100px;
+	}
 }
 
 /* Use a media query to modify for tablets */
@@ -336,5 +340,9 @@ img.portrait {
 	
 	.info {
 		font-size: 16px;
+	}
+	
+	.picture {
+		width: 150px;
 	}
 }
