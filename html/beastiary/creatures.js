@@ -5,14 +5,14 @@ let creatures = '{"characters":[' +
 			'"file":"artemis",' +
 			'"threat":"5",' +
 			'"full":"Artemic Ulrich",' +
-			'"occupations":"Valkyrie",' +
+			'"occupations":"Princess of the Jungle (Formerly), Healer for the Jungle Tribe (Formerly), Valkyrie (Formerly), Oboran General",' +
 			'"gender":"Female",' +
-			'"age":"100",' +
+			'"age":"37",' +
 			'"companions":"None",' +
 			'"enemy":"None",' +
 			'"physical":"None",' +
 			'"entry":"None",' +
-			'"aliases":"None",' +
+			'"aliases":"Heir to the Maiden, Blizzard of Obora, The Jungle Mender",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
 			'"origin":"Jungle",' +
