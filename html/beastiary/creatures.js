@@ -138,7 +138,7 @@ let creatures = '{"characters":[' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' ++
+			'"aliases":"",' +
 			'"fact":"unaligned",' +
 			'"status":"Deceased",' +
 			'"origin":"Jungle",' +
