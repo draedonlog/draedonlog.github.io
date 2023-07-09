@@ -33,6 +33,10 @@
 	function generatePage() {
 		
 		const obj = JSON.parse(creatures);
+		
+		// Gets the url query
+		const queryString = window.location.search;
+		const urlParams = new URLSearchParams(queryString);
 		const urlName = urlParams.get('name');
 		
 		for (let i = 0; i < obj.characters.length; i++) {
