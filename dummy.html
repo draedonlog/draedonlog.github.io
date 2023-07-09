@@ -8,7 +8,7 @@
 <script type="text/javascript" src="html/beastiary/creatures.js"></script>
 <link href="style/beastiary.css" rel="stylesheet" type="text/css" />
 </head>
-<body onload="generateCards()">
+<body onload="generatePage()">
 	<div class="nav">
 		<!-- Button to the map -->
         <a href="/html/map/world-map.html" class="nav-button">Map</a>
@@ -27,44 +27,72 @@
 	<!-- The Beastiary Cards -->
     <div class="beastiary-wrapper" id="content">
     	<div class="beastiary-background"></div>
+    </div><!-- The Beastiary Page -->
+    <div class="beastiary-wrapper" id="content">
+    	<div class="beastiary-background"></div>
+    	<article class="overview">
+    	<div class="title-bar" id="titleBar">
+    	<h3 class="threat-level">Threat Level: <img class="threat-indicator" id="threat"></h3>
+    	</div>
+    	<img class="picture" id="portrait"> <!-- Portrait -->
+    		<section class="introduction" id="intro">
+    		</section>
+    		<hr>
+    		<section id = "entry-block">
+    		</section>
+    	</article>
+    	
     </div>
+            
 </body>
 <script type="text/javascript">
-	function generateCards() {
+	function generatePage() {
+		
 		const obj = JSON.parse(creatures);
+		const urlName = urlParams.get('name');
 		
-		// Creates the card
 		for (let i = 0; i < obj.characters.length; i++) {
-			const card = document.createElement("a");
-			card.href = "creature.html?name=" + obj.characters[i].file;
-			// Adds the faction border
-			card.classList.add(obj.characters[i].fact);
+			if (urlName.equals(obj.characters[i].file)) {
+			// Creates the title block
+			const title = document.createElement("h1");
+			title.innerHTML = obj.characters[i].name;
+			const titleBar = document.getElementById("titleBar");
+			titleBar.appendChild(title);
+			
+			// Creates the threat indicator
+			const threat = document.getElementById("threat");
+			const position = (100 - parseInt(obj.characters[i].threat) * 10) + "% 0";
+			threat.style["mask-position"] = position;
+			threat.style["-webkit-mask-position"] = position;
+			threat.src = "threat-10.jpg";
+			
 			// Creates the portrait
-			const portrait = document.createElement("img");
+			const portrait = document.getElementById("portrait");
 			portrait.src = "assets/beastiary/" + obj.characters[i].file + ".jpg";
-			portrait.classList.add("portrait")
-			card.appendChild(portrait);
-			// Creates the name label
-			const label = document.createElement("span");
-			label.classList.add("menu-label")
-			label.innerHTML = obj.characters[i].name;
-			card.appendChild(label);
-			// Creates the brief info section
-			const info = document.createElement("div");
-			info.classList.add("info");
-			info.innerHTML = "<hr>Status: ".bold() + obj.characters[i].status.italics() + "<br>"
-			+ "Origin: ".bold() + obj.characters[i].origin.italics() + "<br>"
-			+ "Race: ".bold() + obj.characters[i].race.italics() + "<hr>";
-			label.appendChild(info);
-			// Creates the description section
-			const desc = document.createElement("p");
-			desc.innerHTML = obj.characters[i].desc + "<br>" + "<br>";
-			info.appendChild(desc);
-		
-		
-			// Adds to the card list
-			const element = document.getElementById("content");
-			element.appendChild(card);
+			portrait.classList.add(obj.characters[i].fact + "-stat");
+			
+			// Adds the intro block
+			const introduction = document.createElement("p");
+			introduction.innerHTML = "Full Name: " + obj.characters[i].full + "<br>";
+			introduction.innerHTML = introduction.innerHTML + "Aliases: " + obj.characters[i].aliases + "<br>";
+			introduction.innerHTML = introduction.innerHTML + "Occupations: " + obj.characters[i].occupations + "<br>";
+			introduction.innerHTML = introduction.innerHTML + "Race: " + obj.characters[i].race + "<br>";
+			introduction.innerHTML = introduction.innerHTML + "Origin: " + obj.characters[i].origin + "<br>";
+			introduction.innerHTML = introduction.innerHTML + "Gender: " + obj.characters[i].gender + "<br>";
+			introduction.innerHTML = introduction.innerHTML + "Age: " + obj.characters[i].age + "<br>";
+			introduction.innerHTML = introduction.innerHTML + "Companions: " + obj.characters[i].companions + "<br>";
+			introduction.innerHTML = introduction.innerHTML + "Enemies: " + obj.characters[i].enemy + "<br>";
+			introduction.innerHTML = introduction.innerHTML + "Status " + obj.characters[i].status + ":<br>";
+			const intro = document.getElementById("intro");
+			intro.appendChild(introduction);
+			
+			// Adds the entry block
+			const entry = document.createElement("p");
+			entry.innerHTML = "Physical Description: " + obj.characters[i].physical + "<br><br>";
+    		entry.innerHTML = entry.innerHTML + "Entry: " + obj.characters[i].entry;
+    		const entryBlock = document.getElementById("entry-block");
+    		entryBlock.appendChild(entry);
+			}
 		}
 	}
 	
