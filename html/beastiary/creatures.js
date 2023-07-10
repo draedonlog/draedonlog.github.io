@@ -24,16 +24,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Ashley",' +
 			'"file":"ashley",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"2",' +
+			'"full":"Ashley Laven",' +
+			'"occupations":"Musician, Thief (Formerly), Mercenary, Marione Royal Bard",' +
+			'"gender":"Female",' +
+			'"age":"24",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"None",' +
+			'"aliases":"The Peacock, Trouble Clef",' +
 			'"fact":"unaligned",' +
 			'"status":"Alive",' +
 			'"origin":"Barindale",' +
@@ -46,15 +46,15 @@ let creatures = '{"characters":[' +
 			'"name":"Aurora",' +
 			'"file":"aurora",' +
 			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"full":"Aurora",' +
+			'"occupations":"Elven Goddess of War, Queen of the Valkyries, Demanatus’ Lieutenant",' +
+			'"gender":"Female",' +
+			'"age":"Unknown",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"The Iron Lady, The Angelic Fist, The Maiden, Pyranus’ Enforcer",' +
 			'"fact":"pyranus",' +
 			'"status":"Deceased",' +
 			'"origin":"Unknown",' +
@@ -66,16 +66,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Bart",' +
 			'"file":"bart",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"3",' +
+			'"full":"Bartholomew Weston",' +
+			'"occupations":"Farmer (Formerly), Captain of the Barindale Guard",' +
+			'"gender":"Male",' +
+			'"age":"58",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"Captain Bart, Knight of Barindale",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
 			'"origin":"Barindale",' +
@@ -87,12 +87,12 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Book",' +
 			'"file":"book",' +
-			'"threat":"5",' +
+			'"threat":"3",' +
 			'"full":"",' +
 			'"occupations":"",' +
-			'"gender":"",' +
+			'"gender":"Male",' +
 			'"age":"",' +
-			'"companions":"",' +
+			'"companions":"Nao, Okraz",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
@@ -108,16 +108,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Borg",' +
 			'"file":"borg",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"4",' +
+			'"full":"Borg Kinsman",' +
+			'"occupations":"Orc King",' +
+			'"gender":"Male",' +
+			'"age":"36",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"Big Orc, The Pork King",' +
 			'"fact":"demanatus",' +
 			'"status":"Deceased",' +
 			'"origin":"Rotha",' +
@@ -129,16 +129,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Void Cultist",' +
 			'"file":"cultist",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"6",' +
+			'"full":"Unknown",' +
+			'"occupations":"Guard of the Stepping Stones",' +
+			'"gender":"Male",' +
+			'"age":"Unknown",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"Keeper of the Seal",' +
 			'"fact":"unaligned",' +
 			'"status":"Deceased",' +
 			'"origin":"Jungle",' +
@@ -150,16 +150,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Cunter Nickel",' +
 			'"file":"cunter-nickel",' +
-			'"threat":"5",' +
+			'"threat":"6",' +
 			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
+			'"occupations":"Thief (Formerly), Marione Chief of Security (Formerly)",' +
+			'"gender":"Male",' +
 			'"age":"",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"Enforcer of Marione",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
 			'"origin":"Triven",' +
@@ -171,19 +171,19 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Daedalus",' +
 			'"file":"daedalus",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"7",' +
+			'"full":"Daedalus Snow",' +
+			'"occupations":"Lead Scientist on Project Dark Sun (Formerly), Royal Scientist of Barindale, Alchemist, Inventor",' +
+			'"gender":"Male",' +
+			'"age":"18",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"The Reborn Mind, The Great Alchemist, Son of Marione",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
-			'"origin":"Marione",' +
+			'"origin":"Marione/Hell",' +
 			'"race":"Elven Demigod",' +
 			'"desc":"The royal scientist of Barindale and reincarnation of the inventor of the Warforged. Deadalus\' intellect is unmatched even by Draedon."' +
 		'},' +
@@ -193,15 +193,15 @@ let creatures = '{"characters":[' +
 			'"name":"Daram",' +
 			'"file":"daram",' +
 			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"full":"Daram",' +
+			'"occupations":"Elven God of Death, Leader of the Black Mark",' +
+			'"gender":"Male",' +
+			'"age":"Unknown",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"Death, The Grim Reaper, Thanatos",' +
 			'"fact":"pyranus",' +
 			'"status":"Alive",' +
 			'"origin":"Unknown",' +
@@ -213,16 +213,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Demanatus",' +
 			'"file":"demanatus",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"10",' +
+			'"full":"Demanatus Ulrich",' +
+			'"occupations":"Prince of the Jungle (Formerly), Captain of the Jungle Guard (Formerly), Jungle Tyrant, Keeper of the Void Stone",' +
+			'"gender":"Male",' +
+			'"age":"41",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"The Jungle Tyrant, Bane of the Gods, The Unbroken Blade, Bringer of War, Light\’s Bane, The Sword of the Jungle, Son of Calamity, Little Light (Xanter; formerly)",' +
 			'"fact":"demanatus",' +
 			'"status":"Alive",' +
 			'"origin":"Jungle",' +
@@ -234,16 +234,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Devourer",' +
 			'"file":"devourer",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"8",' +
+			'"full":"The Devourer of the Cosmos",' +
+			'"occupations":"Demanatus\’ Monstrosity",' +
+			'"gender":"Male",' +
+			'"age":"Unknown",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"Scourge of the Cosmos, The Great Devourer, Devourer of Gods",' +
 			'"fact":"demanatus",' +
 			'"status":"Alive",' +
 			'"origin":"Unknown",' +
@@ -255,16 +255,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Dibella",' +
 			'"file":"dibella",' +
-			'"threat":"5",' +
+			'"threat":"4",' +
 			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
+			'"occupations":"Mercenary (Formerly), Demolition Specialist for Team Alpha",' +
+			'"gender":"Female",' +
 			'"age":"",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"Kaboom",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
 			'"origin":"Sunem",' +
@@ -276,16 +276,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Draedon",' +
 			'"file":"draedon",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"7",' +
+			'"full":"Draedon Snow",' +
+			'"occupations":"Lead Scientist for Demanatus, Lead Scientist for Project Eclipse",' +
+			'"gender":"Male",' +
+			'"age":"1",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"The Rouge Android, The Mad Scientist",' +
 			'"fact":"demanatus",' +
 			'"status":"Deceased",' +
 			'"origin":"Barindale",' +
@@ -297,16 +297,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Dragon Folly",' +
 			'"file":"dragonfolly",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"1",' +
+			'"full":"Various Names",' +
+			'"occupations":"Test Subjects",' +
+			'"gender":"Female",' +
+			'"age":"0 to 6 Months",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"Yharon Kin, Yharon’s Clones",' +
 			'"fact":"unaligned",' +
 			'"status":"Alive",' +
 			'"origin":"Triven Lab",' +
@@ -318,16 +318,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Elros",' +
 			'"file":"elros",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"10",' +
+			'"full":"Elros Ulrich",' +
+			'"occupations":"Prince of the Jungle, True Heir to the Jungle Throne, Warlock for the Jungle Tribe (Formerly)",' +
+			'"gender":"Male",' +
+			'"age":"42",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"The Charming Son (Jungle Tribe), Master of the Ancients, Tamer of Chaos",' +
 			'"fact":"unaligned",' +
 			'"status":"Alive",' +
 			'"origin":"Jungle",' +
@@ -339,10 +339,10 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Emmet",' +
 			'"file":"emmet",' +
-			'"threat":"5",' +
+			'"threat":"3",' +
 			'"full":"",' +
 			'"occupations":"",' +
-			'"gender":"",' +
+			'"gender":"Male",' +
 			'"age":"",' +
 			'"companions":"",' +
 			'"enemy":"",' +
@@ -353,23 +353,23 @@ let creatures = '{"characters":[' +
 			'"status":"Alive",' +
 			'"origin":"Lothra",' +
 			'"race":"Wood Elf",' +
-			'"desc":"The clumsy paladin to Xanter. Emmet is the clever wielder of Xarzith and Xanter’s chosen champion."' +
+			'"desc":"The clumsy paladin to Xanter. Emmet is the clever wielder of Xarzith and Xanter\’s chosen champion."' +
 		'},' +
 
 		// Eramis
 		'{' +
 			'"name":"Eramis",' +
 			'"file":"eramis",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"6",' +
+			'"full":"Eramis DeVander",' +
+			'"occupations":"Elven Deity of Shadows, Demanatus’ Advisor (Formerly), Advisor to the Resistance",' +
+			'"gender":"Female",' +
+			'"age":"Unknown",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"The Omniscient Eye, Lady of the Shadows",' +
 			'"fact":"resistance",' +
 			'"status":"Deceased",' +
 			'"origin":"Unknown",' +
@@ -381,10 +381,10 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Gnomeo",' +
 			'"file":"gnomeo",' +
-			'"threat":"5",' +
+			'"threat":"1",' +
 			'"full":"",' +
 			'"occupations":"",' +
-			'"gender":"",' +
+			'"gender":"Male",' +
 			'"age":"",' +
 			'"companions":"",' +
 			'"enemy":"",' +
@@ -402,16 +402,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Goravan",' +
 			'"file":"goravan",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"4",' +
+			'"full":"Goravan Beckham",' +
+			'"occupations":"Ponem Special Forces (Formerly), Barbarian for Team Alpha",' +
+			'"gender":"Male",' +
+			'"age":"43",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"The Bear of Ponem",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
 			'"origin":"Ponem",' +
@@ -423,7 +423,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Jake",' +
 			'"file":"jake",' +
-			'"threat":"5",' +
+			'"threat":"2",' +
 			'"full":"",' +
 			'"occupations":"",' +
 			'"gender":"",' +
@@ -444,16 +444,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Johnathon",' +
 			'"file":"johnathon",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"4",' +
+			'"full":"Johnathon Marlie",' +
+			'"occupations":"Advisor for Barindale, Warlock for Team Alpha",' +
+			'"gender":"Male",' +
+			'"age":"35",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"The Enlightened Mage",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
 			'"origin":"Barindale",' +
@@ -465,16 +465,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Joseph Banana",' +
 			'"file":"joseph",' +
-			'"threat":"5",' +
-			'"full":"",' +
+			'"threat":"6",' +
+			'"full":"Joseph Banana",' +
 			'"occupations":"",' +
-			'"gender":"",' +
+			'"gender":"Male",' +
 			'"age":"",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"Champion of the Storm",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
 			'"origin":"Keotor",' +
@@ -486,16 +486,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Jungle Guards",' +
 			'"file":"jungle-guard",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"7",' +
+			'"full":"Various Names",' +
+			'"occupations":"Warrior Background, Jungle Special Forces",' +
+			'"gender":"Mixed",' +
+			'"age":"Various",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"Brothers of the Void, Tyranny\’s Fist",' +
 			'"fact":"demanatus",' +
 			'"status":"Alive",' +
 			'"origin":"Jungle",' +
@@ -507,20 +507,20 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Kristine",' +
 			'"file":"kristine",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"9",' +
+			'"full":"Kristine Marione",' +
+			'"occupations":"Princess of Marione, Leader of the Council of Gods, Keeper of the Sun Stone, Elected Leader of the Nine Kingdoms",' +
+			'"gender":"Female",' +
+			'"age":"28",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"Concordia, Jewel of the Nine, The Benevolent One, Sunshine (Varion)",' +
 			'"fact":"resistance",' +
 			'"status":"Deceased",' +
 			'"origin":"Marione",' +
-			'"race":"Elf",' +
+			'"race":"Human",' +
 			'"desc":"The princess of Marione and leader of the Council of Gods. Kristine’s compassion and leadership was renowned across the kingdoms."' +
 		'},' +
 
@@ -528,16 +528,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Kronos",' +
 			'"file":"kronos",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"7",' +
+			'"full":"Kronos",' +
+			'"occupations":"Dwarven God of Time, Keeper of the Temple of Time",' +
+			'"gender":"Male",' +
+			'"age":"Unknown",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"Father Time",' +
 			'"fact":"godly",' +
 			'"status":"Deceased",' +
 			'"origin":"Unknown",' +
@@ -549,16 +549,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Leviathan",' +
 			'"file":"leviathan",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"7",' +
+			'"full":"Orion Levi",' +
+			'"occupations":"Slave (Formerly), Soldier (Formerly), Mercenary (Formerly), Weapons Dealer, Leader of the Leviathan Clan",' +
+			'"gender":"Male",' +
+			'"age":"51",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"The Leviathan",' +
 			'"fact":"leviathan",' +
 			'"status":"Alive",' +
 			'"origin":"Ponem",' +
@@ -570,20 +570,20 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Lilith",' +
 			'"file":"lilith",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"3",' +
+			'"full":"Lilith Snow",' +
+			'"occupations":"Wielder of Xarzith, Keeper of the Final Seal of Pyranus",' +
+			'"gender":"Female",' +
+			'"age":"50",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"Mother of Xarzith",' +
 			'"fact":"unaligned",' +
 			'"status":"Deceased",' +
 			'"origin":"Marione",' +
-			'"race":"Elf",' +
+			'"race":"Half Elf",' +
 			'"desc":"The mother of Varion and Daedalus. Lilith was the original wielder of Xarzith until sacrificing her soul to imprison Pyranus."' +
 		'},' +
 
@@ -591,16 +591,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Marka",' +
 			'"file":"marka",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"3",' +
+			'"full":"Marka Irfel",' +
+			'"occupations":"Chief Mining Operator",' +
+			'"gender":"Male",' +
+			'"age":"71",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"The Mine Flayer",' +
 			'"fact":"demanatus",' +
 			'"status":"Deceased",' +
 			'"origin":"Underdark",' +
@@ -612,16 +612,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Nao",' +
 			'"file":"nao",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"1",' +
+			'"full":"Nao",' +
+			'"occupations":"Book\'s Pet",' +
+			'"gender":"Male",' +
+			'"age":"6",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"None",' +
 			'"fact":"unaligned",' +
 			'"status":"Alive",' +
 			'"origin":"Obora",' +
@@ -634,15 +634,15 @@ let creatures = '{"characters":[' +
 			'"name":"Obadiah",' +
 			'"file":"oni",' +
 			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"full":"Obadiah Malice",' +
+			'"occupations":"Servant of Pyranus",' +
+			'"gender":"Male",' +
+			'"age":"Unknown",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"Trickster of Flame",' +
 			'"fact":"pyranus",' +
 			'"status":"Deceased",' +
 			'"origin":"Pyranus",' +
@@ -654,16 +654,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Okraz",' +
 			'"file":"okraz",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"1",' +
+			'"full":"Okraz",' +
+			'"occupations":"Book\'s Familiar",' +
+			'"gender":"Neutral",' +
+			'"age":"Unknown",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"Water Horse",' +
 			'"fact":"godly",' +
 			'"status":"Alive",' +
 			'"origin":"Regen",' +
@@ -675,16 +675,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Pyranus",' +
 			'"file":"pyranus",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"9",' +
+			'"full":"Pyranus",' +
+			'"occupations":"Elven God of Fire and Pain",' +
+			'"gender":"Male",' +
+			'"age":"Unknown",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"Fire Father, Hope\’s Bane, Father of Despair, Lucifer",' +
 			'"fact":"pyranus",' +
 			'"status":"Deceased",' +
 			'"origin":"Unknown",' +
@@ -696,16 +696,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Rainey",' +
 			'"file":"rainey",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"3",' +
+			'"full":"Rainey Fawn",' +
+			'"occupations":"Ancient Historian and Researcher, Artemis’ Second in Command",' +
+			'"gender":"Female",' +
+			'"age":"35",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"Dewdrop, The Historian",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
 			'"origin":"Obora",' +
@@ -717,10 +717,10 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Raphael",' +
 			'"file":"raphael",' +
-			'"threat":"5",' +
+			'"threat":"4",' +
 			'"full":"",' +
 			'"occupations":"",' +
-			'"gender":"",' +
+			'"gender":"Male",' +
 			'"age":"",' +
 			'"companions":"",' +
 			'"enemy":"",' +
@@ -738,16 +738,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Regen",' +
 			'"file":"regen",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"6",' +
+			'"full":"Regen",' +
+			'"occupations":"Elven Goddess of Rain and Life",' +
+			'"gender":"Female",' +
+			'"age":"Unknown",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"The Great Rain Spirit, Bringer of Life",' +
 			'"fact":"godly",' +
 			'"status":"Deceased",' +
 			'"origin":"Unknown",' +
@@ -759,16 +759,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Semuanya",' +
 			'"file":"semuanya",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"8",' +
+			'"full":"Semuanya",' +
+			'"occupations":"Patron God of the Lizardfolk",' +
+			'"gender":"Male",' +
+			'"age":"Unknown",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"The Watcher, The Breeder",' +
 			'"fact":"godly",' +
 			'"status":"Alive",' +
 			'"origin":"Unknown",' +
@@ -780,16 +780,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Stallion",' +
 			'"file":"stallion",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"3",' +
+			'"full":"Stallion Levi",' +
+			'"occupations":"Thief, Con Artist",' +
+			'"gender":"Female",' +
+			'"age":"26",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"The Ace of Hearts, Venom",' +
 			'"fact":"leviathan",' +
 			'"status":"Alive",' +
 			'"origin":"Ponem",' +
@@ -801,16 +801,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Storm Weaver",' +
 			'"file":"stormweaver",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"8",' +
+			'"full":"Stormweaver",' +
+			'"occupations":"Dwarven and Warforged God of Lightning and Steel",' +
+			'"gender":"Male",' +
+			'"age":"Unknown",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"Stormbreaker, Lightning Forged",' +
 			'"fact":"godly",' +
 			'"status":"Alive",' +
 			'"origin":"Unknown",' +
@@ -824,14 +824,14 @@ let creatures = '{"characters":[' +
 			'"file":"valkyrie",' +
 			'"threat":"5",' +
 			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"occupations":"Warrior Background",' +
+			'"gender":"Female",' +
+			'"age":"Various",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"Sword of Aurora, Maidens of Steel",' +
 			'"fact":"pyranus",' +
 			'"status":"Disbanded",' +
 			'"origin":"Various",' +
@@ -843,16 +843,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Varion",' +
 			'"file":"varion",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"4",' +
+			'"full":"Alexander Snow",' +
+			'"occupations":"Thief (Formerly), Emissary of the People (Formerly), Marione Royal Guard (Formerly), Advisor to the Marione Royal Guard (Formerly), Prince of Marione, Envoy to the Council of Gods",' +
+			'"gender":"Male",' +
+			'"age":"29",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"Varion, The Silent Striker, Starlight (By Kristine)",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
 			'"origin":"Marione",' +
@@ -865,15 +865,15 @@ let creatures = '{"characters":[' +
 			'"name":"Victor",' +
 			'"file":"victor",' +
 			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"full":"Victor Baron",' +
+			'"occupations":"Triven General",' +
+			'"gender":"Male",' +
+			'"age":"108",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"The Sharpshooter of Steel",' +
 			'"fact":"resistance",' +
 			'"status":"Alive",' +
 			'"origin":"Triven",' +
@@ -885,16 +885,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Voramir",' +
 			'"file":"voramir",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"7",' +
+			'"full":"Voramir",' +
+			'"occupations":"Minor Desert Deity, Demanatus\’ Lieutenant",' +
+			'"gender":"Male",' +
+			'"age":"1,982",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"Scourge of Sunem, Trickster of the Sand",' +
 			'"fact":"demanatus",' +
 			'"status":"Deceased",' +
 			'"origin":"Sunem",' +
@@ -907,15 +907,15 @@ let creatures = '{"characters":[' +
 			'"name":"The Warden",' +
 			'"file":"warden",' +
 			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"full":"Unknown",' +
+			'"occupations":"Watcher of the Pit",' +
+			'"gender":"Female",' +
+			'"age":"928",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"Holder of Despair, Keeper of Chains",' +
 			'"fact":"unaligned",' +
 			'"status":"Deceased",' +
 			'"origin":"Unknown",' +
@@ -927,16 +927,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Xanter",' +
 			'"file":"xanter",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"8",' +
+			'"full":"Xanter",' +
+			'"occupations":"Elven Goddess of Ice and Love, Jungle Queen (Formerly), Healer to the Jungle Tribe (Formerly)",' +
+			'"gender":"Female",' +
+			'"age":"Unknown",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"Abigail Ulrich, Light of the Jungle, Aphrodite, The Elven Mother",' +
 			'"fact":"godly",' +
 			'"status":"Alive",' +
 			'"origin":"Unknown",' +
@@ -948,16 +948,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Yharim",' +
 			'"file":"yharim",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"8",' +
+			'"full":"Yharim Ulrich",' +
+			'"occupations":"Jungle Guard (Formerly), Envoy of the Jungle (Formerly), King of the Jungle (Formerly), Captain of the Jungle Guard",' +
+			'"gender":"Male",' +
+			'"age":"62",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"Hero of Soul, Leader of Void, Pride of the Jungle",' +
 			'"fact":"unaligned",' +
 			'"status":"Deceased",' +
 			'"origin":"Jungle",' +
@@ -969,16 +969,16 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Yharon",' +
 			'"file":"yharon",' +
-			'"threat":"5",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
+			'"threat":"9",' +
+			'"full":"Yharon Ulrich",' +
+			'"occupations":"Demanatus\’ Beast, Demanatus\’ Friend, Marione\’s Occupier",' +
+			'"gender":"Female",' +
+			'"age":"20",' +
 			'"companions":"",' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"",' +
+			'"aliases":"Jungle Dragon, Rising Phoenix, Dragon of Rebirth",' +
 			'"fact":"demanatus",' +
 			'"status":"Alive",' +
 			'"origin":"Jungle",' +
