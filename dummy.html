@@ -8,7 +8,7 @@
 <script type="text/javascript" src="html/beastiary/creatures.js"></script>
 <link href="style/beastiary.css" rel="stylesheet" type="text/css" />
 </head>
-<body onload="generatePage()">
+<body onload="generatePage()" class="bod">
 	<div class="nav">
 		<!-- Button to the map -->
         <a href="/html/map/world-map.html" class="nav-button">Map</a>
@@ -29,7 +29,7 @@
     	<div class="beastiary-background"></div>
     	<article class="overview">
     	<div class="title-bar" id="titleBar">
-    	<h3 class="threat-level">Threat Level: <img class="threat-indicator" id="threat"></h3>
+    	<h3 class="threat-level"><span>Threat Level:</span> <img class="threat-indicator" id="threat"></h3>
     	</div>
     		<section class="introduction" id="intro">
     		<img class="picture" id="portrait"> <!-- Portrait -->
@@ -38,6 +38,7 @@
     		<section class="introduction" id = "entry-block">
     		</section>
     	</article>
+    	<div class="spacer"></div>
     </div>
             
 </body>
