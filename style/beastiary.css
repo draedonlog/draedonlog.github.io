@@ -288,7 +288,7 @@ img.portrait {
 }
 
 /* Use a media query to modify for phones */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 	.beastiary-wrapper a {
 		width: 44%;
 		aspect-ratio:5/7;
@@ -316,7 +316,7 @@ img.portrait {
 }
 
 /* Use a media query to modify for tablets */
-@media screen and (min-width: 767px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 	
 	.beastiary-wrapper a {
 		width: 28%;
