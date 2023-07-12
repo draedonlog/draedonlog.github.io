@@ -25,16 +25,17 @@
     		</section>
     	</article>
     </div>
-    
-    <a class="creature-button prev" id="prev">&lt; </a>
-    <a class="creature-button next" id="next"> &gt;</a>
             
 </body>
 <script type="text/javascript">
+	//Gets the url query
+	const queryString = window.location.search;
+	const urlParams = new URLSearchParams(queryString);
+	const urlName = urlParams.get('name');
+
 	function generatePage() {
 		
 		const obj = JSON.parse(creatures);
-		const urlName = "aurora";
 		const i = (obj.characters).findIndex(checkName);
 		
 		// Creates the title block
@@ -54,7 +55,7 @@
 		const portrait = document.getElementById("portrait");
 		portrait.src = "assets/beastiary/" + obj.characters[i].file + ".jpg";
 		portrait.classList.add(obj.characters[i].fact + "-stat");
-				
+			
 		// Adds the intro block
 		const introduction = document.createElement("p");
 		introduction.innerHTML = "<strong>Full Name: </strong><em>" + obj.characters[i].full + "</em><br>";
@@ -73,33 +74,32 @@
 		// Adds the entry block
 		const entry = document.createElement("p");
 		entry.innerHTML = "<strong>Physical Description: </strong>" + obj.characters[i].physical + "<br><br>";
-		entry.innerHTML = entry.innerHTML + "<strong>Entry: </strong>" + obj.characters[i].entry;
-		const entryBlock = document.getElementById("entry-block");
-		entryBlock.appendChild(entry);
-				
-		// Updates the next and prev
-		const next = document.getElementById("next");
-		const prev = document.getElementById("prev");
-		if (i == 0) {
-			prev.href = "/html/beastiary/creature.html?name=" + obj.characters[obj.characters.length].file;
-			prev.innerHTML = prev.innerHTML + obj.characters[obj.characters.length].name;
-		}
-		else {
-			prev.href = "/html/beastiary/creature.html?name=" + obj.characters[i - 1].file;
-			prev.innerHTML = prev.innerHTML + obj.characters[i - 1].name;
-		}
-		if (i == obj.characters.length) {
-			next.href = "/html/beastiary/creature.html?name=" + obj.characters[0].file;
-			next.innerHTML = obj.characters[0].name + next.innerHTML;
-		}
-		else {
-			next.href = "/html/beastiary/creature.html?name=" + obj.characters[i + 1].file;
-				next.innerHTML = obj.characters[i + 1].name + next.innerHTML;
-		}
+    	entry.innerHTML = entry.innerHTML + "<strong>Entry: </strong>" + obj.characters[i].entry;
+    	const entryBlock = document.getElementById("entry-block");
+    	entryBlock.appendChild(entry);
+    			
+    	// Updates the next and prev
+    	const next = document.getElementById("next");
+    	const prev = document.getElementById("prev");
+    	if (i == 0) {
+    		prev.href = "/html/beastiary/creature.html?name=" + obj.characters[obj.characters.length].file;
+    		prev.innerHTML = prev.innerHTML + obj.characters[obj.characters.length].name;
+    	}
+    	else {
+    		prev.href = "/html/beastiary/creature.html?name=" + obj.characters[i - 1].file;
+    		prev.innerHTML = prev.innerHTML + obj.characters[i - 1].name;
+    	}
+    	if (i == obj.characters.length) {
+    		next.href = "/html/beastiary/creature.html?name=" + obj.characters[0].file;
+    		next.innerHTML = obj.characters[0].name + next.innerHTML;
+    	}
+    	else {
+    		next.href = "/html/beastiary/creature.html?name=" + obj.characters[i + 1].file;
+    		next.innerHTML = obj.characters[i + 1].name + next.innerHTML;
+    	}
 	}
-
+		
 	function checkName(character) {
-		const urlName = "aurora";
 		return urlName == character.file;
 	}
 	

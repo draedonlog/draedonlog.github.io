@@ -44,10 +44,10 @@
             
 </body>
 <script type="text/javascript">
+	const urlName = "aurora";
 	function generatePage() {
 		
 		const obj = JSON.parse(creatures);
-		const urlName = "aurora";
 		const i = (obj.characters).findIndex(checkName);
 		
 		// Creates the title block
@@ -112,7 +112,6 @@
 	}
 	
 	function checkName(character) {
-		const urlName = "aurora";
 		return urlName == character.file;
 	}
 	
