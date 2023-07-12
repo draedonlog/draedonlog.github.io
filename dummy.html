@@ -44,7 +44,7 @@
             
 </body>
 <script type="text/javascript">
-	const urlName = "aurora";
+	const urlName = "artemis";
 	function generatePage() {
 		
 		const obj = JSON.parse(creatures);
@@ -94,14 +94,14 @@
     	const next = document.getElementById("next");
     	const prev = document.getElementById("prev");
     	if (i == 0) {
-    		prev.href = "/html/beastiary/creature.html?name=" + obj.characters[obj.characters.length].file;
-    		prev.innerHTML = prev.innerHTML + obj.characters[obj.characters.length].name;
+    		prev.href = "/html/beastiary/creature.html?name=" + obj.characters[obj.characters.length - 1].file;
+    		prev.innerHTML = prev.innerHTML + obj.characters[obj.characters.length - 1].name;
     	}
     	else {
     		prev.href = "/html/beastiary/creature.html?name=" + obj.characters[i - 1].file;
     		prev.innerHTML = prev.innerHTML + obj.characters[i - 1].name;
     	}
-    	if (i == obj.characters.length) {
+    	if (i == obj.characters.length - 1) {
     		next.href = "/html/beastiary/creature.html?name=" + obj.characters[0].file;
     		next.innerHTML = obj.characters[0].name + next.innerHTML;
     	}
