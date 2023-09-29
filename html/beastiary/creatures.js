@@ -3,6 +3,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Artemis",' +
 			'"file":"artemis",' +
+			'"alt":"",' +
 			'"threat":"5",' +
 			'"full":"Artemis Ulrich",' +
 			'"occupations":"Princess of the Jungle (Formerly), Healer for the Jungle Tribe (Formerly), Valkyrie (Formerly), Oboran General",' +
@@ -24,6 +25,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Ashley",' +
 			'"file":"ashley",' +
+			'"alt":"",' +
 			'"threat":"2",' +
 			'"full":"Ashley Laven",' +
 			'"occupations":"Musician, Thief (Formerly), Mercenary, Marione Royal Bard",' +
@@ -45,6 +47,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Aurora",' +
 			'"file":"aurora",' +
+			'"alt":"",' +
 			'"threat":"5",' +
 			'"full":"Aurora",' +
 			'"occupations":"Elven Goddess of War, Queen of the Valkyries, Demanatus\’ Lieutenant",' +
@@ -66,6 +69,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Bart",' +
 			'"file":"bart",' +
+			'"alt":"",' +
 			'"threat":"3",' +
 			'"full":"Bartholomew Weston",' +
 			'"occupations":"Farmer (Formerly), Captain of the Barindale Guard",' +
@@ -87,6 +91,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Book",' +
 			'"file":"book",' +
+			'"alt":"",' +
 			'"threat":"3",' +
 			'"full":"",' +
 			'"occupations":"",' +
@@ -108,6 +113,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Borg",' +
 			'"file":"borg",' +
+			'"alt":"",' +
 			'"threat":"4",' +
 			'"full":"Borg Kinsman",' +
 			'"occupations":"Orc King",' +
@@ -129,6 +135,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Void Cultist",' +
 			'"file":"cultist",' +
+			'"alt":"",' +
 			'"threat":"6",' +
 			'"full":"Unknown",' +
 			'"occupations":"Guard of the Stepping Stones",' +
@@ -150,6 +157,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Cunter Nickel",' +
 			'"file":"cunter-nickel",' +
+			'"alt":"",' +
 			'"threat":"6",' +
 			'"full":"",' +
 			'"occupations":"Thief (Formerly), Marione Chief of Security (Formerly)",' +
@@ -171,6 +179,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Daedalus",' +
 			'"file":"daedalus",' +
+			'"alt":"",' +
 			'"threat":"7",' +
 			'"full":"Daedalus Snow",' +
 			'"occupations":"Lead Scientist on Project Dark Sun (Formerly), Royal Scientist of Barindale, Alchemist, Inventor",' +
@@ -192,6 +201,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Daram",' +
 			'"file":"daram",' +
+			'"alt":"",' +
 			'"threat":"5",' +
 			'"full":"Daram",' +
 			'"occupations":"Elven God of Death, Leader of the Black Mark",' +
@@ -213,6 +223,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Demanatus",' +
 			'"file":"demanatus",' +
+			'"alt":"demanatus-human",' +
 			'"threat":"10",' +
 			'"full":"Demanatus Ulrich",' +
 			'"occupations":"Prince of the Jungle (Formerly), Captain of the Jungle Guard (Formerly), Jungle Tyrant, Keeper of the Void Stone",' +
@@ -234,6 +245,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Devourer",' +
 			'"file":"devourer",' +
+			'"alt":"",' +
 			'"threat":"8",' +
 			'"full":"The Devourer of the Cosmos",' +
 			'"occupations":"Demanatus\’ Monstrosity",' +
@@ -255,6 +267,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Dibella",' +
 			'"file":"dibella",' +
+			'"alt":"",' +
 			'"threat":"4",' +
 			'"full":"",' +
 			'"occupations":"Mercenary (Formerly), Demolition Specialist for Team Alpha",' +
@@ -276,6 +289,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Draedon",' +
 			'"file":"draedon",' +
+			'"alt":"",' +
 			'"threat":"7",' +
 			'"full":"Draedon Snow",' +
 			'"occupations":"Lead Scientist for Demanatus, Lead Scientist for Project Eclipse",' +
@@ -297,6 +311,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Dragon Folly",' +
 			'"file":"dragonfolly",' +
+			'"alt":"",' +
 			'"threat":"1",' +
 			'"full":"Various Names",' +
 			'"occupations":"Test Subjects",' +
@@ -318,6 +333,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Elros",' +
 			'"file":"elros",' +
+			'"alt":"",' +
 			'"threat":"10",' +
 			'"full":"Elros Ulrich",' +
 			'"occupations":"Prince of the Jungle, True Heir to the Jungle Throne, Warlock for the Jungle Tribe (Formerly)",' +
@@ -339,6 +355,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Emmet",' +
 			'"file":"emmet",' +
+			'"alt":"",' +
 			'"threat":"3",' +
 			'"full":"",' +
 			'"occupations":"",' +
@@ -360,6 +377,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Eramis",' +
 			'"file":"eramis",' +
+			'"alt":"",' +
 			'"threat":"6",' +
 			'"full":"Eramis DeVander",' +
 			'"occupations":"Elven Deity of Shadows, Demanatus’ Advisor (Formerly), Advisor to the Resistance",' +
@@ -381,6 +399,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Gnomeo",' +
 			'"file":"gnomeo",' +
+			'"alt":"",' +
 			'"threat":"1",' +
 			'"full":"",' +
 			'"occupations":"",' +
@@ -402,6 +421,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Goravan",' +
 			'"file":"goravan",' +
+			'"alt":"",' +
 			'"threat":"4",' +
 			'"full":"Goravan Beckham",' +
 			'"occupations":"Ponem Special Forces (Formerly), Barbarian for Team Alpha",' +
@@ -423,6 +443,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Jake",' +
 			'"file":"jake",' +
+			'"alt":"",' +
 			'"threat":"2",' +
 			'"full":"",' +
 			'"occupations":"",' +
@@ -444,6 +465,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Johnathon",' +
 			'"file":"johnathon",' +
+			'"alt":"",' +
 			'"threat":"4",' +
 			'"full":"Johnathon Marlie",' +
 			'"occupations":"Advisor for Barindale, Warlock for Team Alpha",' +
@@ -465,6 +487,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Joseph Banana",' +
 			'"file":"joseph",' +
+			'"alt":"",' +
 			'"threat":"6",' +
 			'"full":"Joseph Banana",' +
 			'"occupations":"",' +
@@ -486,6 +509,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Jungle Guards",' +
 			'"file":"jungle-guard",' +
+			'"alt":"",' +
 			'"threat":"7",' +
 			'"full":"Various Names",' +
 			'"occupations":"Warrior Background, Jungle Special Forces",' +
@@ -507,6 +531,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Kristine",' +
 			'"file":"kristine",' +
+			'"alt":"",' +
 			'"threat":"9",' +
 			'"full":"Kristine Marione",' +
 			'"occupations":"Princess of Marione, Leader of the Council of Gods, Keeper of the Sun Stone, Elected Leader of the Nine Kingdoms",' +
@@ -528,6 +553,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Kronos",' +
 			'"file":"kronos",' +
+			'"alt":"",' +
 			'"threat":"7",' +
 			'"full":"Kronos",' +
 			'"occupations":"Dwarven God of Time, Keeper of the Temple of Time",' +
@@ -549,6 +575,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Leviathan",' +
 			'"file":"leviathan",' +
+			'"alt":"",' +
 			'"threat":"7",' +
 			'"full":"Orion Levi",' +
 			'"occupations":"Slave (Formerly), Soldier (Formerly), Mercenary (Formerly), Weapons Dealer, Leader of the Leviathan Clan",' +
@@ -570,6 +597,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Lilith",' +
 			'"file":"lilith",' +
+			'"alt":"",' +
 			'"threat":"3",' +
 			'"full":"Lilith Snow",' +
 			'"occupations":"Wielder of Xarzith, Keeper of the Final Seal of Pyranus",' +
@@ -591,6 +619,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Marka",' +
 			'"file":"marka",' +
+			'"alt":"",' +
 			'"threat":"3",' +
 			'"full":"Marka Irfel",' +
 			'"occupations":"Chief Mining Operator",' +
@@ -612,6 +641,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Nao",' +
 			'"file":"nao",' +
+			'"alt":"",' +
 			'"threat":"1",' +
 			'"full":"Nao",' +
 			'"occupations":"Book\'s Pet",' +
@@ -633,6 +663,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Obadiah",' +
 			'"file":"oni",' +
+			'"alt":"",' +
 			'"threat":"5",' +
 			'"full":"Obadiah Malice",' +
 			'"occupations":"Servant of Pyranus",' +
@@ -654,6 +685,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Okraz",' +
 			'"file":"okraz",' +
+			'"alt":"",' +
 			'"threat":"1",' +
 			'"full":"Okraz",' +
 			'"occupations":"Book\'s Familiar",' +
@@ -675,6 +707,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Pyranus",' +
 			'"file":"pyranus",' +
+			'"alt":"",' +
 			'"threat":"9",' +
 			'"full":"Pyranus",' +
 			'"occupations":"Elven God of Fire and Pain",' +
@@ -696,6 +729,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Rainey",' +
 			'"file":"rainey",' +
+			'"alt":"",' +
 			'"threat":"3",' +
 			'"full":"Rainey Fawn",' +
 			'"occupations":"Ancient Historian and Researcher, Artemis’ Second in Command",' +
@@ -717,6 +751,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Raphael",' +
 			'"file":"raphael",' +
+			'"alt":"",' +
 			'"threat":"4",' +
 			'"full":"",' +
 			'"occupations":"",' +
@@ -738,6 +773,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Regen",' +
 			'"file":"regen",' +
+			'"alt":"",' +
 			'"threat":"6",' +
 			'"full":"Regen",' +
 			'"occupations":"Elven Goddess of Rain and Life",' +
@@ -759,6 +795,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Semuanya",' +
 			'"file":"semuanya",' +
+			'"alt":"",' +
 			'"threat":"8",' +
 			'"full":"Semuanya",' +
 			'"occupations":"Patron God of the Lizardfolk",' +
@@ -780,6 +817,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Stallion",' +
 			'"file":"stallion",' +
+			'"alt":"",' +
 			'"threat":"3",' +
 			'"full":"Stallion Levi",' +
 			'"occupations":"Thief, Con Artist",' +
@@ -801,6 +839,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Storm Weaver",' +
 			'"file":"stormweaver",' +
+			'"alt":"",' +
 			'"threat":"8",' +
 			'"full":"Stormweaver",' +
 			'"occupations":"Dwarven and Warforged God of Lightning and Steel",' +
@@ -818,10 +857,33 @@ let creatures = '{"characters":[' +
 			'"desc":"The dwarven god of lightning and protector of the warforged. The Storm Weaver is a powerful god with little care for those around him."' +
 		'},' +
 
+		// Valentina
+		'{' +
+			'"name":"Valentina",' +
+			'"file":"secretVal",' +
+			'"alt":"",' +
+			'"threat":"10",' +
+			'"full":"Valentina Ulrich",' +
+			'"occupations":"",' +
+			'"gender":"Female",' +
+			'"age":"20",' +
+			'"companions":"",' +
+			'"enemy":"",' +
+			'"physical":"",' +
+			'"entry":"",' +
+			'"aliases":"Mistress of Void, The Golden Fist, Princess of the Night, Demanatus",' +
+			'"fact":"demanatus",' +
+			'"status":"Alive",' +
+			'"origin":"Jungle",' +
+			'"race":"Human",' +
+			'"desc":"The child of Elro\'s resurrected anew. Valentina leads from the shadows and is Demanatus\' most trusted general."' +
+		'},' +
+
 		// Valkyries
 		'{' +
 			'"name":"Valkyries",' +
 			'"file":"valkyrie",' +
+			'"alt":"",' +
 			'"threat":"5",' +
 			'"full":"",' +
 			'"occupations":"Warrior Background",' +
@@ -843,6 +905,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Varion",' +
 			'"file":"varion",' +
+			'"alt":"",' +
 			'"threat":"4",' +
 			'"full":"Alexander Snow",' +
 			'"occupations":"Thief (Formerly), Emissary of the People (Formerly), Marione Royal Guard (Formerly), Advisor to the Marione Royal Guard (Formerly), Prince of Marione, Envoy to the Council of Gods",' +
@@ -864,6 +927,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Victor",' +
 			'"file":"victor",' +
+			'"alt":"",' +
 			'"threat":"5",' +
 			'"full":"Victor Baron",' +
 			'"occupations":"Triven General",' +
@@ -885,6 +949,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Voramir",' +
 			'"file":"voramir",' +
+			'"alt":"",' +
 			'"threat":"7",' +
 			'"full":"Voramir",' +
 			'"occupations":"Minor Desert Deity, Demanatus\’ Lieutenant",' +
@@ -906,6 +971,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"The Warden",' +
 			'"file":"warden",' +
+			'"alt":"",' +
 			'"threat":"5",' +
 			'"full":"Unknown",' +
 			'"occupations":"Watcher of the Pit",' +
@@ -927,6 +993,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Xanter",' +
 			'"file":"xanter",' +
+			'"alt":"",' +
 			'"threat":"8",' +
 			'"full":"Xanter",' +
 			'"occupations":"Elven Goddess of Ice and Love, Jungle Queen (Formerly), Healer to the Jungle Tribe (Formerly)",' +
@@ -948,6 +1015,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Yharim",' +
 			'"file":"yharim",' +
+			'"alt":"",' +
 			'"threat":"8",' +
 			'"full":"Yharim Ulrich",' +
 			'"occupations":"Jungle Guard (Formerly), Envoy of the Jungle (Formerly), King of the Jungle (Formerly), Captain of the Jungle Guard",' +
@@ -969,6 +1037,7 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Yharon",' +
 			'"file":"yharon",' +
+			'"alt":"",' +
 			'"threat":"9",' +
 			'"full":"Yharon Ulrich",' +
 			'"occupations":"Demanatus\’ Beast, Demanatus\’ Friend, Marione\’s Occupier",' +

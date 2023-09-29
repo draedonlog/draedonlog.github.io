@@ -11,49 +11,24 @@
 </head>
 <body onload="generateCards()">
 	<script id="replace_with_navbar" src="/html/nav/nav.js"></script>
+	
+	<!-- The Beastiary Filters -->
+    <div class="filter-wrapper">
+    <!-- Toggle Filters for the different styles -->
+	<a id="filter-resistance" onclick="hideShowType(this.id, 'resistance')" class="resistance-stat">Resistance</a>
+	<a id="filter-demanatus" onclick="hideShowType(this.id, 'demanatus')" class="demanatus-stat">Demanatus</a>
+	<a id="filter-godly" onclick="hideShowType(this.id, 'godly')" class="godly-stat">Godly</a>
+	<a id="filter-pyranus" onclick="hideShowType(this.id, 'pyranus')" class="pyranus-stat">Pyranus</a>
+	<a id="filter-leviathan" onclick="hideShowType(this.id, 'leviathan')" class="leviathan-stat">Leviathan</a>
+	<a id="filter-unaligned" onclick="hideShowType(this.id, 'unaligned')" class="unaligned-stat">Unaligned</a>
+	<input type="text" name="Console" id="consLog" onChange="validateLog()">
+    </div>
+    
 	<!-- The Beastiary Cards -->
     <div class="beastiary-wrapper" id="content">
     </div>
             
 </body>
-<script type="text/javascript">
-	function generateCards() {
-		const obj = JSON.parse(creatures);
-		
-		// Creates the card
-		for (let i = 0; i < obj.characters.length; i++) {
-			const card = document.createElement("a");
-			card.href = "/html/beastiary/creature.html?name=" + obj.characters[i].file;
-			// Adds the faction border
-			card.classList.add(obj.characters[i].fact);
-			// Creates the portrait
-			const portrait = document.createElement("img");
-			portrait.src = "assets/beastiary/" + obj.characters[i].file + ".jpg";
-			portrait.classList.add("portrait")
-			card.appendChild(portrait);
-			// Creates the name label
-			const label = document.createElement("span");
-			label.classList.add("menu-label")
-			label.innerHTML = obj.characters[i].name;
-			card.appendChild(label);
-			// Creates the brief info section
-			const info = document.createElement("div");
-			info.classList.add("info");
-			info.innerHTML = "<hr>Status: ".bold() + obj.characters[i].status.italics() + "<br>"
-			+ "Origin: ".bold() + obj.characters[i].origin.italics() + "<br>"
-			+ "Race: ".bold() + obj.characters[i].race.italics() + "<hr>";
-			label.appendChild(info);
-			// Creates the description section
-			const desc = document.createElement("p");
-			desc.innerHTML = obj.characters[i].desc + "<br>" + "<br>";
-			info.appendChild(desc);
-		
-		
-			// Adds to the card list
-			const element = document.getElementById("content");
-			element.appendChild(card);
-		}
-	}
-	
+<script src="beastiary-home.js" type="text/javascript">
 </script>
 </html>

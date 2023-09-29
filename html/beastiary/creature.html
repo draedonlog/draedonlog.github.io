@@ -18,7 +18,16 @@
     	<h3 class="threat-level"><span>Threat Level:</span> <img class="threat-indicator" id="threat"></h3>
     	</div>
     		<section class="introduction" id="intro">
-    		<img class="picture" id="portrait"> <!-- Portrait -->
+    		<div class="flip-card" id="flip-contain"> <!-- Portrait -->
+  				<div class="flip-card-inner" id="flip-card">
+    				<div class="flip-card-front">
+      					<img class="picture" id="portrait">
+    				</div>
+    				<div class="flip-card-back">
+      					<img class="picture" id="alt-portrait">
+    				</div>
+  				</div>
+			</div>
     		</section>
     		<hr>
     		<section class="introduction" id = "entry-block">
@@ -30,81 +39,6 @@
     <a class="creature-button next" id="next"> &gt;</a>
             
 </body>
-<script type="text/javascript">
-	//Gets the url query
-	const queryString = window.location.search;
-	const urlParams = new URLSearchParams(queryString);
-	const urlName = urlParams.get('name');
-
-	function generatePage() {
-		
-		const obj = JSON.parse(creatures);
-		const i = (obj.characters).findIndex(checkName);
-		
-		// Creates the title block
-		const title = document.createElement("h1");
-		title.innerHTML = obj.characters[i].name;
-		const titleBar = document.getElementById("titleBar");
-		titleBar.appendChild(title);
-			
-		// Creates the threat indicator
-		const threat = document.getElementById("threat");
-		const position = (100 - parseInt(obj.characters[i].threat) * 10) + "% 0";
-		threat.style["mask-position"] = position;
-		threat.style["-webkit-mask-position"] = position;
-		threat.src = "threat-10.jpg";
-			
-		// Creates the portrait
-		const portrait = document.getElementById("portrait");
-		portrait.src = "assets/beastiary/" + obj.characters[i].file + ".jpg";
-		portrait.classList.add(obj.characters[i].fact + "-stat");
-			
-		// Adds the intro block
-		const introduction = document.createElement("p");
-		introduction.innerHTML = "<strong>Full Name: </strong><em>" + obj.characters[i].full + "</em><br>";
-		introduction.innerHTML = introduction.innerHTML + "<strong>Aliases: </strong><em>" + obj.characters[i].aliases + "</em><br>";
-		introduction.innerHTML = introduction.innerHTML + "<strong>Occupations: </strong><em>" + obj.characters[i].occupations + "</em><br>";
-		introduction.innerHTML = introduction.innerHTML + "<strong>Race: </strong><em>" + obj.characters[i].race + "</em><br>";
-		introduction.innerHTML = introduction.innerHTML + "<strong>Origin: </strong><em>" + obj.characters[i].origin + "</em><br>";
-		introduction.innerHTML = introduction.innerHTML + "<strong>Gender: </strong><em>" + obj.characters[i].gender + "</em><br>";
-		introduction.innerHTML = introduction.innerHTML + "<strong>Age: </strong><em>" + obj.characters[i].age + "</em><br>";
-		introduction.innerHTML = introduction.innerHTML + "<strong>Companions: </strong><em>" + obj.characters[i].companions + "</em><br>";
-		introduction.innerHTML = introduction.innerHTML + "<strong>Enemies: </strong><em>" + obj.characters[i].enemy + "</em><br>";
-		introduction.innerHTML = introduction.innerHTML + "<strong>Status: </strong><em>" + obj.characters[i].status + "</em><br><br>";
-		const intro = document.getElementById("intro");
-		intro.appendChild(introduction);
-			
-		// Adds the entry block
-		const entry = document.createElement("p");
-		entry.innerHTML = "<strong>Physical Description: </strong>" + obj.characters[i].physical + "<br><br>";
-    	entry.innerHTML = entry.innerHTML + "<strong>Entry: </strong>" + obj.characters[i].entry;
-    	const entryBlock = document.getElementById("entry-block");
-    	entryBlock.appendChild(entry);
-    			
-    	// Updates the next and prev
-    	const next = document.getElementById("next");
-    	const prev = document.getElementById("prev");
-    	if (i == 0) {
-    		prev.href = "/html/beastiary/creature.html?name=" + obj.characters[obj.characters.length - 1].file;
-    		prev.innerHTML = prev.innerHTML + obj.characters[obj.characters.length - 1].name;
-    	}
-    	else {
-    		prev.href = "/html/beastiary/creature.html?name=" + obj.characters[i - 1].file;
-    		prev.innerHTML = prev.innerHTML + obj.characters[i - 1].name;
-    	}
-    	if (i == obj.characters.length - 1) {
-    		next.href = "/html/beastiary/creature.html?name=" + obj.characters[0].file;
-    		next.innerHTML = obj.characters[0].name + next.innerHTML;
-    	}
-    	else {
-    		next.href = "/html/beastiary/creature.html?name=" + obj.characters[i + 1].file;
-    		next.innerHTML = obj.characters[i + 1].name + next.innerHTML;
-    	}
-	}
-		
-	function checkName(character) {
-		return urlName == character.file;
-	}
-	
+<script src="creature-page.js" type="text/javascript">
 </script>
 </html>

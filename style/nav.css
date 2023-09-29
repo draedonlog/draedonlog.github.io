@@ -43,7 +43,7 @@ body {
   	display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
   	overflow: hidden;
   	position: fixed;
-  	z-index: 999;
+  	z-index: 1000;
 }
 
 .nav-buffer {
