@@ -8,6 +8,7 @@ function generatePage() {
     const i = (obj.characters).findIndex(checkName);
     
     // Creates the title block
+    document.title = obj.characters[i].name; // Sets the title of the page
     const title = document.createElement("h1");
     title.innerHTML = obj.characters[i].name;
     const titleBar = document.getElementById("titleBar");
@@ -43,7 +44,7 @@ function generatePage() {
     introduction.innerHTML = introduction.innerHTML + "<strong>Origin: </strong><em>" + obj.characters[i].origin + "</em><br>";
     introduction.innerHTML = introduction.innerHTML + "<strong>Gender: </strong><em>" + obj.characters[i].gender + "</em><br>";
     introduction.innerHTML = introduction.innerHTML + "<strong>Age: </strong><em>" + obj.characters[i].age + "</em><br>";
-    introduction.innerHTML = introduction.innerHTML + "<strong>Companions: </strong><em>" + obj.characters[i].companions + "</em><br>";
+    introduction.innerHTML = introduction.innerHTML + "<strong>Relationships: </strong><em>" + obj.characters[i].companions + "</em><br>";
     introduction.innerHTML = introduction.innerHTML + "<strong>Enemies: </strong><em>" + obj.characters[i].enemy + "</em><br>";
     introduction.innerHTML = introduction.innerHTML + "<strong>Status: </strong><em>" + obj.characters[i].status + "</em><br><br>";
     const intro = document.getElementById("intro");

@@ -871,7 +871,7 @@ let creatures = '{"characters":[' +
 			'"enemy":"",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"Mistress of Void, The Golden Fist, Princess of the Night, Demanatus",' +
+			'"aliases":"Specimen RGR-PLRP-DGR, Mistress of Void, The Golden Fist, Princess of the Night, Demanatus",' +
 			'"fact":"demanatus",' +
 			'"status":"Alive",' +
 			'"origin":"Jungle",' +
