@@ -32,7 +32,7 @@ let creatures = '{"characters":[' +
 			'"gender":"Female",' +
 			'"age":"24",' +
 			'"companions":"Kristine (Best Friend), Varion (Crime partner), Lance (Crime Partner), Cunter Nickel (Crime Partner and Crush), Leviathan (Former Boss)",' +
-			'"enemy":The Leviathan Clan, Demanatus and his Forces",' +
+			'"enemy":"The Leviathan Clan, Demanatus and his Forces",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"The Peacock, Trouble Clef",' +
