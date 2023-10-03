@@ -31,8 +31,8 @@ let creatures = '{"characters":[' +
 			'"occupations":"Musician, Thief (Formerly), Mercenary, Marione Royal Bard",' +
 			'"gender":"Female",' +
 			'"age":"24",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Kristine (Best Friend), Varion (Crime partner), Lance (Crime Partner), Cunter Nickel (Crime Partner and Crush), Leviathan (Former Boss)",' +
+			'"enemy":The Leviathan Clan, Demanatus and his Forces",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"The Peacock, Trouble Clef",' +
@@ -75,8 +75,8 @@ let creatures = '{"characters":[' +
 			'"occupations":"Farmer (Formerly), Captain of the Barindale Guard",' +
 			'"gender":"Male",' +
 			'"age":"58",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Daedalus, Raphael, Artemis",' +
+			'"enemy":"Demanatus and his Forces",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"Captain Bart, Knight of Barindale",' +
@@ -119,8 +119,8 @@ let creatures = '{"characters":[' +
 			'"occupations":"Orc King",' +
 			'"gender":"Male",' +
 			'"age":"36",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Demanatus, Aurora, Draedon, Rotha Gaurd",' +
+			'"enemy":"The resistance",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"Big Orc, The Pork King",' +
@@ -141,8 +141,8 @@ let creatures = '{"characters":[' +
 			'"occupations":"Guard of the Stepping Stones",' +
 			'"gender":"Male",' +
 			'"age":"Unknown",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Members of the Order of the Void",' +
+			'"enemy":"Pyranus, Sun Stone, Forces of Light",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"Keeper of the Seal",' +
@@ -185,8 +185,8 @@ let creatures = '{"characters":[' +
 			'"occupations":"Lead Scientist on Project Dark Sun (Formerly), Royal Scientist of Barindale, Alchemist, Inventor",' +
 			'"gender":"Male",' +
 			'"age":"18",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Lilith (Mother), Varion (Brother), Kristine, Lance, Cunter Nickel, Rapheal, Bart",' +
+			'"enemy":"Pyranus, Demanatus and his forces",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"The Reborn Mind, The Great Alchemist, Son of Marione",' +
@@ -207,8 +207,8 @@ let creatures = '{"characters":[' +
 			'"occupations":"Elven God of Death, Leader of the Black Mark",' +
 			'"gender":"Male",' +
 			'"age":"Unknown",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Eramis (Mother), Pyranus (Father), Aurora (Sister), Kronos",' +
+			'"enemy":"Demanatus and his forces, Yharim",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"Death, The Grim Reaper, Thanatos",' +
@@ -229,8 +229,8 @@ let creatures = '{"characters":[' +
 			'"occupations":"Prince of the Jungle (Formerly), Captain of the Jungle Guard (Formerly), Jungle Tyrant, Keeper of the Void Stone",' +
 			'"gender":"Male",' +
 			'"age":"41",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Xanter (Mother), Yharim (Father), Elros (Brother), Artemis (Sister), Valentina (Neice), Yharon, Eramis, Draedon, The Great Devourer",' +
+			'"enemy":"Pyranus, gods, the resistance",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"The Jungle Tyrant, Bane of the Gods, The Unbroken Blade, Bringer of War, Light\’s Bane, The Sword of the Jungle, Son of Calamity, Little Light (Xanter; formerly)",' +
@@ -251,8 +251,8 @@ let creatures = '{"characters":[' +
 			'"occupations":"Demanatus\’ Monstrosity",' +
 			'"gender":"Male",' +
 			'"age":"Unknown",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Demanatus (Begrudgingly)",' +
+			'"enemy":"The resistance",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"Scourge of the Cosmos, The Great Devourer, Devourer of Gods",' +
@@ -269,12 +269,12 @@ let creatures = '{"characters":[' +
 			'"file":"dibella",' +
 			'"alt":"",' +
 			'"threat":"4",' +
-			'"full":"",' +
+			'"full":"Dibella Sol",' +
 			'"occupations":"Mercenary (Formerly), Demolition Specialist for Team Alpha",' +
 			'"gender":"Female",' +
-			'"age":"",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"age":"26",' +
+			'"companions":"Team Alpha (Goravan and Johnathon), Artemis",' +
+			'"enemy":"Demanatus and his forces",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"Kaboom",' +
@@ -294,9 +294,9 @@ let creatures = '{"characters":[' +
 			'"full":"Draedon Snow",' +
 			'"occupations":"Lead Scientist for Demanatus, Lead Scientist for Project Eclipse",' +
 			'"gender":"Male",' +
-			'"age":"1",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"age":"2",' +
+			'"companions":"Demanatus",' +
+			'"enemy":"The resistance, The Stormweaver",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"The Rouge Android, The Mad Scientist",' +
@@ -317,11 +317,11 @@ let creatures = '{"characters":[' +
 			'"occupations":"Test Subjects",' +
 			'"gender":"Female",' +
 			'"age":"0 to 6 Months",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Demanatus, Yharon, Nao",' +
+			'"enemy":"None",' +
 			'"physical":"",' +
 			'"entry":"",' +
-			'"aliases":"Yharon Kin, Yharon’s Clones",' +
+			'"aliases":"Yharon Kin, Yharon\’s Clones",' +
 			'"fact":"unaligned",' +
 			'"status":"Alive",' +
 			'"origin":"Triven Lab",' +
@@ -339,8 +339,8 @@ let creatures = '{"characters":[' +
 			'"occupations":"Prince of the Jungle, True Heir to the Jungle Throne, Warlock for the Jungle Tribe (Formerly)",' +
 			'"gender":"Male",' +
 			'"age":"42",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Xanter (Mother), Yharim (Father), Demanatus (Brother), Artemis (Sister), Valentina (Daughter), Yharon, Eramis",' +
+			'"enemy":"Pyranus, Demanatus and his forces",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"The Charming Son (Jungle Tribe), Master of the Ancients, Tamer of Chaos",' +
@@ -380,11 +380,11 @@ let creatures = '{"characters":[' +
 			'"alt":"",' +
 			'"threat":"6",' +
 			'"full":"Eramis DeVander",' +
-			'"occupations":"Elven Deity of Shadows, Demanatus’ Advisor (Formerly), Advisor to the Resistance",' +
+			'"occupations":"Elven Deity of Shadows, Demanatus\’ Advisor (Formerly), Advisor to the Resistance",' +
 			'"gender":"Female",' +
 			'"age":"Unknown",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Pyranus (Husband), Aurora (Daughter), Daram (Son), Demanatus",' +
+			'"enemy":"Pyranus, Demanatus and his forces",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"The Omniscient Eye, Lady of the Shadows",' +
@@ -427,8 +427,8 @@ let creatures = '{"characters":[' +
 			'"occupations":"Ponem Special Forces (Formerly), Barbarian for Team Alpha",' +
 			'"gender":"Male",' +
 			'"age":"43",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Team Alpha (Dibella and Johnathon), Artemis",' +
+			'"enemy":"Demanatus and his forces, The Leivathan Clan",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"The Bear of Ponem",' +
@@ -437,28 +437,6 @@ let creatures = '{"characters":[' +
 			'"origin":"Ponem",' +
 			'"race":"Goliath",' +
 			'"desc":"The goliath barbarian of team Alpha. Goravan\'s lack of intelligence is made up for in his brutal strength and skill with an axe."' +
-		'},' +
-
-		// Jake
-		'{' +
-			'"name":"Jake",' +
-			'"file":"jake",' +
-			'"alt":"",' +
-			'"threat":"2",' +
-			'"full":"",' +
-			'"occupations":"",' +
-			'"gender":"",' +
-			'"age":"",' +
-			'"companions":"",' +
-			'"enemy":"",' +
-			'"physical":"",' +
-			'"entry":"",' +
-			'"aliases":"",' +
-			'"fact":"resistance",' +
-			'"status":"Alive",' +
-			'"origin":"Lothra",' +
-			'"race":"High Elf",' +
-			'"desc":"The high elf rogue of team Sigma. Jake is a skilled marksman and is known for stealing from just about anyone."' +
 		'},' +
 
 		// Johnathon
@@ -471,8 +449,8 @@ let creatures = '{"characters":[' +
 			'"occupations":"Advisor for Barindale, Warlock for Team Alpha",' +
 			'"gender":"Male",' +
 			'"age":"35",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Team Alpha (Dibella and Goravan), Artemis, Daedalus",' +
+			'"enemy":"Demanatus and his Forces",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"The Enlightened Mage",' +
@@ -511,12 +489,12 @@ let creatures = '{"characters":[' +
 			'"file":"jungle-guard",' +
 			'"alt":"",' +
 			'"threat":"7",' +
-			'"full":"Various Names",' +
+			'"full":"Jungle Honor Guard",' +
 			'"occupations":"Warrior Background, Jungle Special Forces",' +
 			'"gender":"Mixed",' +
 			'"age":"Various",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Demanatus",' +
+			'"enemy":"The reistance",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"Brothers of the Void, Tyranny\’s Fist",' +
@@ -537,8 +515,8 @@ let creatures = '{"characters":[' +
 			'"occupations":"Princess of Marione, Leader of the Council of Gods, Keeper of the Sun Stone, Elected Leader of the Nine Kingdoms",' +
 			'"gender":"Female",' +
 			'"age":"28",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Varion (Fiance), Lance, Cunter Nickel, Ashley (Best Friend)",' +
+			'"enemy":"The Leviathan Clan, Demanatus and his forces",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"Concordia, Jewel of the Nine, The Benevolent One, Sunshine (Varion)",' +
@@ -546,7 +524,7 @@ let creatures = '{"characters":[' +
 			'"status":"Deceased",' +
 			'"origin":"Marione",' +
 			'"race":"Human",' +
-			'"desc":"The princess of Marione and leader of the Council of Gods. Kristine’s compassion and leadership was renowned across the kingdoms."' +
+			'"desc":"The princess of Marione and leader of the Council of Gods. Kristine\’s compassion and leadership was renowned across the kingdoms."' +
 		'},' +
 
 		// Kronos
@@ -559,8 +537,8 @@ let creatures = '{"characters":[' +
 			'"occupations":"Dwarven God of Time, Keeper of the Temple of Time",' +
 			'"gender":"Male",' +
 			'"age":"Unknown",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Daram, Stormweaver",' +
+			'"enemy":"Demanatus and his forces, Pyranus",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"Father Time",' +
@@ -581,8 +559,8 @@ let creatures = '{"characters":[' +
 			'"occupations":"Slave (Formerly), Soldier (Formerly), Mercenary (Formerly), Weapons Dealer, Leader of the Leviathan Clan",' +
 			'"gender":"Male",' +
 			'"age":"51",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Stallion (Daughter), Demanatus",' +
+			'"enemy":"Varion, Kristine, Lance, Cunter Nickel, Ashley",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"The Leviathan",' +
@@ -603,7 +581,7 @@ let creatures = '{"characters":[' +
 			'"occupations":"Wielder of Xarzith, Keeper of the Final Seal of Pyranus",' +
 			'"gender":"Female",' +
 			'"age":"50",' +
-			'"companions":"Varion (Son), Daedalus (Son), Xanter, Regen",' +
+			'"companions":"Varion (Son), Daedalus (Son), Xanter, Regen (Lover)",' +
 			'"enemy":"Pyranus and his forces",' +
 			'"physical":"Before the tragic events that would leave her scarred, Lilith was a simple farmer\’s wife who dressed the part. Simple clothes that were often left torn from working the fields covered her malnourished frame. She stood 5\’6\’\’ and had green eyes with thinning white hair. While not the most beautiful in her village, her fair complexion and kind nature earned plenty of the male gaze.",' +
 			'"entry":"Lilith was born in a small village in the forests of Marione, when she became of age to get married, she moved towards the plains region to marry a farmer. At the age of 24, she would find a husband and settle down on a small farm. Times were hard for Lilith and her husband, but Lilith was just happy to have someone. As a marriage gift, Lilith received a small push dagger that had been in her husband’s family for a little under a century.<br><br>At the age of 28, Lilith gave birth to her son, Varion. The small farm family continued to live a simple life. Lilith would often go to bed hungry, choosing to instead give her share of the food to the young Varion. Two years after giving birth to Varion, tragedy would strike.<br><br>The god Pyranus returned to the mortal world and began to terrorize the elven people in hopes of driving out his sister Xanter. When Pyranus arrived at Lilith\’s village he destroyed it and killed everyone. After killing her husband, Pyranus would move towards a small cave where Lilith and Varion were hiding. Lilith would hide her only child in a small outcropping and cover the entrance with a small boulder. Pyranus entered the cave and after being isolated in the underworld for centuries, decided to enjoy the mortal flesh. He wrapped his hands around Lilith\’s neck and severely burned her. After Pyranus was finished with her, he drew his greatsword to kill the mortal woman.<br><br>Lilith did not die that day. As Pyranus drew his greatsword, Lilith remembered her push dagger and drove it into Pyranus\’ eye. Strangely, the blade was able to successfully draw blood from Pyranus. Lilith ran away with Pyranus\’ blood still boiling on her knife. As she ran she prayed to Xanter that her baby would be safe as she broke into tears. Varion would be saved from the cave by an elderly woman who would later turn him into an orphanage in Marione.<br><br>After escaping her attacker, Lilith would flee to the <em>House of Xanter</em> in Triven. There she would pray for several weeks. After discovering that she was pregnant with Pyranus\’ child, she made up her mind to throw herself off the roof of the temple. But as she fell off the roof, she was caught by a beautiful woman, a woman who would later reveal herself as Xanter. Xanter informed Lilith that the dagger she carries was forged by a great blacksmith and was infused with her godly blood. Xanter and Lilith would use this blade to form the legendary sword Xarzith.<br><br>After forging Xarzith, Xanter would task Lilith with traveling to hell in order to help seal Pyranus. She did so diligently and would meet the goddess Regen in Daedalus\’ labyrinth. It would be here that Regen would help Lilith give birth to her second child who she named after the labyrinth she was in. Regen agreed to help Lilith on her quest and to help take care of Daedalus. The goddess and Lilith would begin to develop romantic feelings for each other over the course of the next year. But just two years after Lilith gave birth to her second son, the time came to seal Pyranus.<br><br>Regen, Xanter, Kronos, and the Stormweaver would aid Lilith in sealing the great god of fire. In the end the seal would not hold, so Lilith sacrificed her soul to help put the final chain on the seal. Now tied to the location where Pyranus was sealed, Lilith tasked Regen to bring Daedalus to the mortal world and try to reunite him with his elder half brother, assuming Varion was still alive. Regen agreed, and brought Daedalus up into the heavens where he would remain at the age of two until she could find Varion.<br><br>Lilith remained at the seal for 23 years before she would come to meet Team Sigma. She would die to her own blade, Xarzith, which was now wielded by the paladin Emmet. She gave her life willingly in hopes that Pyranus\’ terror could finally be brought to an end. A sacrifice that she did not make in vain.",' +
@@ -625,8 +603,8 @@ let creatures = '{"characters":[' +
 			'"occupations":"Chief Mining Operator",' +
 			'"gender":"Male",' +
 			'"age":"71",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Demanatus, Aurora",' +
+			'"enemy":"The resistance",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"The Mine Flayer",' +
@@ -647,8 +625,8 @@ let creatures = '{"characters":[' +
 			'"occupations":"Book\'s Pet",' +
 			'"gender":"Male",' +
 			'"age":"6",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Book, Dragonfolly",' +
+			'"enemy":"None",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"None",' +
@@ -669,8 +647,8 @@ let creatures = '{"characters":[' +
 			'"occupations":"Servant of Pyranus",' +
 			'"gender":"Male",' +
 			'"age":"Unknown",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Pyranus",' +
+			'"enemy":"Demanatus, Elros, Lilith, Xanter",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"Trickster of Flame",' +
@@ -691,8 +669,8 @@ let creatures = '{"characters":[' +
 			'"occupations":"Book\'s Familiar",' +
 			'"gender":"Neutral",' +
 			'"age":"Unknown",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Book",' +
+			'"enemy":"None",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"Water Horse",' +
@@ -732,11 +710,11 @@ let creatures = '{"characters":[' +
 			'"alt":"",' +
 			'"threat":"3",' +
 			'"full":"Rainey Fawn",' +
-			'"occupations":"Ancient Historian and Researcher, Artemis’ Second in Command",' +
+			'"occupations":"Ancient Historian and Researcher, Artemis\’ Second in Command",' +
 			'"gender":"Female",' +
 			'"age":"35",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Regen (Mother), Artemis, Team Sigma",' +
+			'"enemy":"Demanatus and his forces",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"Dewdrop, The Historian",' +
@@ -779,8 +757,8 @@ let creatures = '{"characters":[' +
 			'"occupations":"Elven Goddess of Rain and Life",' +
 			'"gender":"Female",' +
 			'"age":"Unknown",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Xanter, Lilith (Lover)",' +
+			'"enemy":"Pyranus, Demanatus and his forces",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"The Great Rain Spirit, Bringer of Life",' +
@@ -801,8 +779,8 @@ let creatures = '{"characters":[' +
 			'"occupations":"Patron God of the Lizardfolk",' +
 			'"gender":"Male",' +
 			'"age":"Unknown",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Stormweaver, Clerics pledged to Semuanya",' +
+			'"enemy":"Demanatus and his forces",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"The Watcher, The Breeder",' +
@@ -823,8 +801,8 @@ let creatures = '{"characters":[' +
 			'"occupations":"Thief, Con Artist",' +
 			'"gender":"Female",' +
 			'"age":"26",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Leviathan (Father), Varion (Ex-Fiance)",' +
+			'"enemy":"Kristine, Varion, Cunter Nickel, Lance, Ashley",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"The Ace of Hearts, Venom",' +
@@ -839,14 +817,14 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Storm Weaver",' +
 			'"file":"stormweaver",' +
-			'"alt":"",' +
+			'"alt":"stormweaver-human",' +
 			'"threat":"8",' +
 			'"full":"Stormweaver",' +
 			'"occupations":"Dwarven and Warforged God of Lightning and Steel",' +
 			'"gender":"Male",' +
 			'"age":"Unknown",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Semuanya, Xanter, Joseph Banana",' +
+			'"enemy":"Demanatus and his forces, Draedon",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"Stormbreaker, Lightning Forged",' +
@@ -864,11 +842,11 @@ let creatures = '{"characters":[' +
 			'"alt":"",' +
 			'"threat":"10",' +
 			'"full":"Valentina Ulrich",' +
-			'"occupations":"",' +
+			'"occupations":"General of the Jungle Kingdom",' +
 			'"gender":"Female",' +
 			'"age":"20",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Elros (Father), Demanatus (Uncle), Artemis (Aunt), Xanter (Grandmother), Yharim (Grandfather)",' +
+			'"enemy":"The resistance",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"Specimen RGR-PLRP-DGR, Mistress of Void, The Golden Fist, Princess of the Night, Demanatus",' +
@@ -885,12 +863,12 @@ let creatures = '{"characters":[' +
 			'"file":"valkyrie",' +
 			'"alt":"",' +
 			'"threat":"5",' +
-			'"full":"",' +
+			'"full":"Valkyries of Aurora",' +
 			'"occupations":"Warrior Background",' +
 			'"gender":"Female",' +
 			'"age":"Various",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Aurora",' +
+			'"enemy":"The reistance, Demanatus and his forces",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"Sword of Aurora, Maidens of Steel",' +
@@ -933,8 +911,8 @@ let creatures = '{"characters":[' +
 			'"occupations":"Triven General",' +
 			'"gender":"Male",' +
 			'"age":"108",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Artemis, The Stormweaver",' +
+			'"enemy":"Demanatus and his forces, Draedon",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"The Sharpshooter of Steel",' +
@@ -955,8 +933,8 @@ let creatures = '{"characters":[' +
 			'"occupations":"Minor Desert Deity, Demanatus\’ Lieutenant",' +
 			'"gender":"Male",' +
 			'"age":"1,982",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Demanatus",' +
+			'"enemy":"The resistance",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"Scourge of Sunem, Trickster of the Sand",' +
@@ -975,10 +953,10 @@ let creatures = '{"characters":[' +
 			'"threat":"5",' +
 			'"full":"Unknown",' +
 			'"occupations":"Watcher of the Pit",' +
-			'"gender":"Female",' +
+			'"gender":"Male",' +
 			'"age":"928",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"None",' +
+			'"enemy":"All who enter his domain",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"Holder of Despair, Keeper of Chains",' +
@@ -1021,8 +999,8 @@ let creatures = '{"characters":[' +
 			'"occupations":"Jungle Guard (Formerly), Envoy of the Jungle (Formerly), King of the Jungle (Formerly), Captain of the Jungle Guard",' +
 			'"gender":"Male",' +
 			'"age":"62",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Xanter (Wife), Elros (Son), Demanatus (Son), Artemis (Daughter), Valentina (Granddaughter), Cunter Nickel",' +
+			'"enemy":"Pyranus and his forces",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"Hero of Soul, Leader of Void, Pride of the Jungle",' +
@@ -1037,14 +1015,14 @@ let creatures = '{"characters":[' +
 		'{' +
 			'"name":"Yharon",' +
 			'"file":"yharon",' +
-			'"alt":"",' +
+			'"alt":"yharon-reborn",' +
 			'"threat":"9",' +
 			'"full":"Yharon Ulrich",' +
 			'"occupations":"Demanatus\’ Beast, Demanatus\’ Friend, Marione\’s Occupier",' +
 			'"gender":"Female",' +
 			'"age":"20",' +
-			'"companions":"",' +
-			'"enemy":"",' +
+			'"companions":"Demanatus, Elros, Dragonfolly",' +
+			'"enemy":"The resistance",' +
 			'"physical":"",' +
 			'"entry":"",' +
 			'"aliases":"Jungle Dragon, Rising Phoenix, Dragon of Rebirth",' +
