@@ -5,7 +5,8 @@ const urlName = urlParams.get('name');
 
 function generatePage() {
     const obj = JSON.parse(creatures);
-    const i = (obj.characters).findIndex(checkName);
+    //const i = (obj.characters).findIndex(checkName);
+    const i = 46;
     
     // Creates the title block
     document.title = obj.characters[i].name; // Sets the title of the page
@@ -60,21 +61,53 @@ function generatePage() {
     // Updates the next and prev
     const next = document.getElementById("next");
     const prev = document.getElementById("prev");
-    if (i == 0) {
-        prev.href = "/html/beastiary/creature.html?name=" + obj.characters[obj.characters.length - 1].file;
-        prev.innerHTML = prev.innerHTML + obj.characters[obj.characters.length - 1].name;
+    var found = false;
+    var count = 1;
+    while (!found) { // Previous
+        if (i - count < 0) { // Count has looped around
+            if (!obj.characters[obj.characters.length - count - i].file.includes("secret")) {
+                prev.href = "/html/beastiary/creature.html?name=" + obj.characters[obj.characters.length - count - i].file;
+                prev.innerHTML = prev.innerHTML + obj.characters[obj.characters.length - count - i].name;
+                found = true;
+            }
+            else {
+                count++;
+            }
+        }
+        else {
+            if (!obj.characters[i - count].file.includes("secret")) {
+                prev.href = "/html/beastiary/creature.html?name=" + obj.characters[i - count].file;
+                prev.innerHTML = prev.innerHTML + obj.characters[i - count].name;
+                found = true;
+            }
+            else {
+                count++;
+            }
+        }
     }
-    else {
-        prev.href = "/html/beastiary/creature.html?name=" + obj.characters[i - 1].file;
-        prev.innerHTML = prev.innerHTML + obj.characters[i - 1].name;
-    }
-    if (i == obj.characters.length - 1) {
-        next.href = "/html/beastiary/creature.html?name=" + obj.characters[0].file;
-        next.innerHTML = obj.characters[0].name + next.innerHTML;
-    }
-    else {
-        next.href = "/html/beastiary/creature.html?name=" + obj.characters[i + 1].file;
-        next.innerHTML = obj.characters[i + 1].name + next.innerHTML;
+    found = false;
+    count = 1;
+    while (!found) { // Next
+        if (i + count >= obj.characters.length) { // Count has looped around
+            if (!obj.characters[count + obj.characters.length - i - 2].file.includes("secret")) {
+                next.href = "/html/beastiary/creature.html?name=" + obj.characters[count + obj.characters.length - i - 2].file;
+                next.innerHTML = obj.characters[count + obj.characters.length - i - 2].name + next.innerHTML;
+                found = true;
+            }
+            else {
+                count++;
+            }
+        }
+        else {
+            if (!obj.characters[i + count].file.includes("secret")) {
+                next.href = "/html/beastiary/creature.html?name=" + obj.characters[i + count].file;
+                next.innerHTML = obj.characters[i + count].name + next.innerHTML;
+                found = true;
+            }
+            else {
+                count++;
+            }
+        }
     }
 }
     
