@@ -5,8 +5,7 @@ const urlName = urlParams.get('name');
 
 function generatePage() {
     const obj = JSON.parse(creatures);
-    //const i = (obj.characters).findIndex(checkName);
-    const i = 46;
+    const i = (obj.characters).findIndex(checkName);
     
     // Creates the title block
     document.title = obj.characters[i].name; // Sets the title of the page
