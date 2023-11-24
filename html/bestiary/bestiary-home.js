@@ -5,12 +5,12 @@ function generateCards() {
 	for (let i = 0; i < obj.characters.length; i++) {
         if (!obj.characters[i].file.includes("secret")) {
 		    const card = document.createElement("a");
-		    card.href = "/html/beastiary/creature.html?name=" + obj.characters[i].file;
+		    card.href = "/html/bestiary/creature.html?name=" + obj.characters[i].file;
 		    // Adds the faction border
 		    card.classList.add(obj.characters[i].fact);
 		    // Creates the portrait
 		    const portrait = document.createElement("img");
-		    portrait.src = "assets/beastiary/" + obj.characters[i].file + ".jpg";
+		    portrait.src = "assets/bestiary/" + obj.characters[i].file + ".jpg";
 		    portrait.classList.add("portrait")
 		    card.appendChild(portrait);
 		    // Creates the name label
@@ -133,12 +133,12 @@ function generateSecretCard(secretName) {
 	for (let i = 0; i < obj.characters.length; i++) {
         if (obj.characters[i].file.match(secretName)) {
 		    const card = document.createElement("a");
-		    card.href = "/html/beastiary/creature.html?name=" + obj.characters[i].file;
+		    card.href = "/html/bestiary/creature.html?name=" + obj.characters[i].file;
 		    // Adds the faction border
 		    card.classList.add(obj.characters[i].fact);
 		    // Creates the portrait
 		    const portrait = document.createElement("img");
-		    portrait.src = "assets/beastiary/" + obj.characters[i].file + ".jpg";
+		    portrait.src = "assets/bestiary/" + obj.characters[i].file + ".jpg";
 		    portrait.classList.add("portrait")
 		    card.appendChild(portrait);
 		    // Creates the name label

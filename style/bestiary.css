@@ -43,7 +43,7 @@
 }
 
 
-.beastiary-wrapper {
+.bestiary-wrapper {
     position: relative;
     left: 10%;
     z-index: 998;
@@ -162,7 +162,7 @@
 	float: left;
 }
 
-.beastiary-wrapper a {
+.bestiary-wrapper a {
 	float: left;
     color: var(--disabled-text-color);
     text-align: center;
@@ -335,7 +335,7 @@ img.portrait {
 	height: 100%;
 }
 
-.beastiary-wrapper a:hover > .menu-label {
+.bestiary-wrapper a:hover > .menu-label {
 	top: 0px;
 	color: var(--active-text-color);
 }
@@ -427,7 +427,7 @@ img.portrait {
 
 /* Use a media query to modify for phones */
 @media screen and (max-width: 768px) {
-	.beastiary-wrapper a {
+	.bestiary-wrapper a {
 		width: 44%;
 		aspect-ratio:5/7;
 		margin-bottom: 4%;
@@ -473,7 +473,7 @@ img.portrait {
 /* Use a media query to modify for tablets */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 	
-	.beastiary-wrapper a {
+	.bestiary-wrapper a {
 		width: 28%;
 		aspect-ratio:5/7;
 		margin-bottom: 4%;

@@ -24,7 +24,7 @@ function generatePage() {
     // Creates the portrait
     const portrait = document.getElementById("portrait");
     const frame = document.getElementById("flip-contain");
-    portrait.src = "assets/beastiary/" + obj.characters[i].file + ".jpg";
+    portrait.src = "assets/bestiary/" + obj.characters[i].file + ".jpg";
     if (obj.characters[i].alt === null || obj.characters[i].alt.length === 0) { // No alt picture
         frame.classList.add(obj.characters[i].fact + "-stat");
     }
@@ -32,7 +32,7 @@ function generatePage() {
         frame.classList.add(obj.characters[i].fact);
         frame.setAttribute("onclick","cardFlipper();");
         const alt_portrait = document.getElementById("alt-portrait");
-        alt_portrait.src = "assets/beastiary/" + obj.characters[i].alt + ".jpg";
+        alt_portrait.src = "assets/bestiary/" + obj.characters[i].alt + ".jpg";
     }
         
     // Adds the intro block
@@ -65,7 +65,7 @@ function generatePage() {
     while (!found) { // Previous
         if (i - count < 0) { // Count has looped around
             if (!obj.characters[obj.characters.length - count - i].file.includes("secret")) {
-                prev.href = "/html/beastiary/creature.html?name=" + obj.characters[obj.characters.length - count - i].file;
+                prev.href = "/html/bestiary/creature.html?name=" + obj.characters[obj.characters.length - count - i].file;
                 prev.innerHTML = prev.innerHTML + obj.characters[obj.characters.length - count - i].name;
                 found = true;
             }
@@ -75,7 +75,7 @@ function generatePage() {
         }
         else {
             if (!obj.characters[i - count].file.includes("secret")) {
-                prev.href = "/html/beastiary/creature.html?name=" + obj.characters[i - count].file;
+                prev.href = "/html/bestiary/creature.html?name=" + obj.characters[i - count].file;
                 prev.innerHTML = prev.innerHTML + obj.characters[i - count].name;
                 found = true;
             }
@@ -89,7 +89,7 @@ function generatePage() {
     while (!found) { // Next
         if (i + count >= obj.characters.length) { // Count has looped around
             if (!obj.characters[count + obj.characters.length - i - 2].file.includes("secret")) {
-                next.href = "/html/beastiary/creature.html?name=" + obj.characters[count + obj.characters.length - i - 2].file;
+                next.href = "/html/bestiary/creature.html?name=" + obj.characters[count + obj.characters.length - i - 2].file;
                 next.innerHTML = obj.characters[count + obj.characters.length - i - 2].name + next.innerHTML;
                 found = true;
             }
@@ -99,7 +99,7 @@ function generatePage() {
         }
         else {
             if (!obj.characters[i + count].file.includes("secret")) {
-                next.href = "/html/beastiary/creature.html?name=" + obj.characters[i + count].file;
+                next.href = "/html/bestiary/creature.html?name=" + obj.characters[i + count].file;
                 next.innerHTML = obj.characters[i + count].name + next.innerHTML;
                 found = true;
             }
