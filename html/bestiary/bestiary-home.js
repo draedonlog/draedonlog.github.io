@@ -173,7 +173,7 @@ function validateLog() {
 		const card = document.createElement("a");
 		    card.href = "/html/bestiary/truth";
 		    // Adds the faction border
-		    card.classList.add(unaligned);
+		    card.classList.add("unaligned");
 		    // Creates the portrait
 		    const portrait = document.createElement("img");
 		    portrait.src = "assets/bestiary/truth.jpg";
