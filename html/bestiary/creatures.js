@@ -512,7 +512,7 @@ let creatures = '{"characters":[' +
 			'"alt":"",' +
 			'"threat":"6",' +
 			'"full":"Joseph Banana",' +
-			'"occupations":"Monk, Church Worker, Sex Offender",' +
+			'"occupations":"Monk, Church Worker, Alleged Sex Offender",' +
 			'"gender":"Male",' +
 			'"age":"Unknown",' +
 			'"companions":"Storm Weaver, Emmet",' +
