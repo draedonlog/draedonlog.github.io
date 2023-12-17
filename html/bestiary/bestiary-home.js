@@ -184,6 +184,10 @@ function validateLog() {
 		    label.classList.add("menu-label")
 		    label.innerHTML = "Truth";
 		    card.appendChild(label);
+			// Creates the info
+			const info = document.createElement("div");
+		    info.classList.add("info");
+		    label.appendChild(info);
 		    // Creates the description section
 		    const desc = document.createElement("p");
 		    desc.innerHTML = "The truth behind my hidden logs." + "<br>" + "<br>";
