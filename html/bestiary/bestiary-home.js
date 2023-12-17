@@ -170,7 +170,29 @@ function validateLog() {
 	const answer = "truth is merely a light in the comforting darkness of the void";
 	console.log(document.getElementById("consLog").value + "\n");
 	if (!(answer.localeCompare((document.getElementById("consLog").value).toLowerCase()))) {
-		location.replace("draedonlog.github.io/html/bestiary/truth");
+		const card = document.createElement("a");
+		    card.href = "/html/bestiary/truth";
+		    // Adds the faction border
+		    card.classList.add(obj.characters[i].fact);
+		    // Creates the portrait
+		    const portrait = document.createElement("img");
+		    portrait.src = "assets/bestiary/truth.jpg";
+		    portrait.classList.add("portrait")
+		    card.appendChild(portrait);
+		    // Creates the name label
+		    const label = document.createElement("span");
+		    label.classList.add("menu-label")
+		    label.innerHTML = "Truth";
+		    card.appendChild(label);
+		    // Creates the description section
+		    const desc = document.createElement("p");
+		    desc.innerHTML = "The truth behind my hidden logs." + "<br>" + "<br>";
+		    info.appendChild(desc);
+	
+	
+		    // Adds to the card list
+		    const element = document.getElementById("content");
+		    element.appendChild(card);
 	}
 }
 
