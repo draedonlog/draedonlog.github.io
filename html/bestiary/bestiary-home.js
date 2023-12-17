@@ -44,11 +44,11 @@ let foundSecret2 = false;
 let foundSecret3 = false;
 let foundSecret4 = false;
 let foundSecret5 = false;
-let code1 = ["resistance", "pyranus", "resistance", "demanatus", "unaligned", "godly", "godly", "leviathan", "resistance", "godly"];
-let code2 = ["pyranus", "pyranus", "pyranus", "pyranus", "pyranus", "pyranus", "unaligned", "godly", "pyranus", "demanatus"];
+let code1 = ["godly", "godly", "resistance", "pyranus", "unaligned", "demanatus", "leviathan", "leviathan", "pyranus", "demanatus"];
+let code2 = ["pyranus", "leviathan", "pyranus", "godly", "pyranus", "demanatus", "unaligned", "godly", "pyranus", "demanatus"];
 let code3 = ["resistance", "godly", "resistance", "pyranus", "leviathan", "resistance", "pyranus", "demanatus", "godly", "resistance"];
-let code4 = ["godly", "godly", "resistance", "pyranus", "leviathan", "resistance", "pyranus", "demanatus", "godly", "resistance"];
-let code5 = ["godly", "godly", "resistance", "pyranus", "leviathan", "resistance", "pyranus", "demanatus", "godly", "resistance"];
+let code4 = ["resistance", "unaligned", "resistance", "resistance", "unaligned", "resistance", "pyranus", "unaligned", "demanatus", "godly"];
+let code5 = ["resistance", "unaligned", "leviathan", "pyranus", "demanatus", "resistance", "godly", "godly", "demanatus", "unaligned"];
 
 function secretCode() {
 	var code1Success = true;
@@ -75,7 +75,7 @@ function secretCode() {
 	}
 	if (!foundSecret1 && code1Success) { // Code 1 entered successfully
 		foundSecret1 = true;
-		generateSecretCard("secretEclipse");
+		generateSecretCard("secretCouncil");
 	}
     if (!foundSecret2 && code2Success) { // Code 2 entered successfully
 		foundSecret2 = true;
@@ -87,11 +87,11 @@ function secretCode() {
 	}
     if (!foundSecret4 && code4Success) { // Code 4 entered successfully
 		foundSecret4 = true;
-		generateSecretCard("secretVoid");
+		generateSecretCard("secretSun");
 	}
     if (!foundSecret5 && code5Success) { // Code 5 entered successfully
 		foundSecret5 = true;
-		generateSecretCard("secretSun");
+		generateSecretCard("secretVoid");
 	}
     if (foundSecret1 && foundSecret2 && foundSecret3 && foundSecret4 && foundSecret5) { // All secrets found
         const consoleLog = document.getElementById("consLog");

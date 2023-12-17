@@ -321,7 +321,7 @@
   transform: rotateY(180deg);
 }
 
-.menu-label:hover > .info p {
+.bestiary-wrapper a:hover > .info p {
 	display: block;
 }
 
