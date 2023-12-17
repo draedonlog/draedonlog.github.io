@@ -321,14 +321,9 @@
   transform: rotateY(180deg);
 }
 
-.bestiary-wrapper a:hover > .info p {
-	display: block;
-}
-
 .info p {
 	font-size: 14px;
     line-height: 20px;
-    display:none;
 }
 
 img.portrait {
