@@ -343,6 +343,10 @@ img.portrait {
 	border: 4px solid var(--resistance-color);
 }
 
+.resistance-code {
+	color: var(--resistance-color);
+}
+
 .resistance-stat {
 	border: 4px solid var(--resistance-color);
 }
@@ -355,6 +359,10 @@ img.portrait {
 	/** Animation */
   	transition: 0.2s;
 	border: 4px solid var(--godly-color);
+}
+
+.godly-code {
+	color: var(--godly-color);
 }
 
 .godly-stat {
@@ -371,6 +379,10 @@ img.portrait {
 	border: 4px solid var(--leviathan-color);
 }
 
+.leviathan-code {
+	color: var(--leviathan-color);
+}
+
 .leviathan-stat {
 	border: 4px solid var(--leviathan-color);
 }
@@ -385,6 +397,10 @@ img.portrait {
 	border: 4px solid var(--demanatus-color);
 }
 
+.demanatus-code {
+	color: var(--demanatus-color);
+}
+
 .demanatus-stat {
 	border: 4px solid var(--demanatus-color);
 }
@@ -397,6 +413,10 @@ img.portrait {
 	/** Animation */
   	transition: 0.2s;
 	border: 4px solid var(--pyranus-color);
+}
+
+.pyranus-code {
+	color: var(--pyranus-color);
 }
 
 .pyranus-stat {
