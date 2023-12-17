@@ -170,7 +170,7 @@ function validateLog() {
 	const answer = "truth is merely a light in the comforting darkness of the void";
 	console.log(document.getElementById("consLog").value + "\n");
 	if (!(answer.localeCompare((document.getElementById("consLog").value).toLowerCase()))) {
-		location.replace("draedonlog.github.io/truth");
+		location.replace("draedonlog.github.io/html/bestiary/truth");
 	}
 }
 
