@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<base href="https://draedonlog.github.io/">
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link href="/style/nav.css" rel="stylesheet" type="text/css" /> <!-- Style sheet for nav -->
+<link href="/style/bestiary.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/html/bestiary/creatures.js"></script>
+<link rel="icon" type="image/x-icon" href="/assets/favicon.jpg">
+<title>Truth</title>
+</head>
+<body onload="generateFakeCards()">
+	<script id="replace_with_navbar" src="/html/nav/nav.js"></script>
+	<!-- The Bestiary Filters -->
+    <div class="bestiary-wrapper" style="color: white;">
+    <!-- Toggle Filters for the different styles -->
+    You have done well to find the secrets hidden within this log. While you passed my test
+    of strength by defeating my body, you are still not ready to face Demanatus. Knowledge
+    is power, but the truth I share weighs heavily on the mind that hears it. Are you sure
+    you wish to proceed? If you choose to bear the burden I hold alone, you must prove your
+    knowledge.<br><br>What is the true name of the creature you call Demanatus?
+	<br><br>
+    </div>
+    
+	<!-- The Bestiary Cards -->
+    <div class="bestiary-wrapper" id="content">
+    </div>
+            
+</body>
+<script src="/html/bestiary/bestiary-home.js" type="text/javascript">
+</script>
+</html>

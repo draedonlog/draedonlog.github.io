@@ -169,7 +169,79 @@ function generateSecretCard(secretName) {
 function validateLog() {
 	const answer = "truth is merely a light in the comforting darkness of the void";
 	console.log(document.getElementById("consLog").value + "\n");
-	if (answer.localeCompare((document.getElementById("consLog").value).toLowerCase())) {
-		console.log("Correct!\n");
+	if (!(answer.localeCompare((document.getElementById("consLog").value).toLowerCase()))) {
+		location.replace("draedonlog.github.io/truth");
+	}
+}
+
+function generateFakeCards() {
+	const obj = JSON.parse(creatures);
+	
+	// Creates the card
+	for (let i = 0; i < obj.characters.length; i++) {
+        if (!obj.characters[i].file.includes("elros")) {
+		    const card = document.createElement("a");
+		    card.href = "/html/bestiary/creature.html?name=" + obj.characters[i].file;
+		    // Adds the faction border
+		    card.classList.add(obj.characters[i].fact);
+		    // Creates the portrait
+		    const portrait = document.createElement("img");
+		    portrait.src = "assets/bestiary/" + obj.characters[i].file + ".jpg";
+		    portrait.classList.add("portrait")
+		    card.appendChild(portrait);
+		    // Creates the name label
+		    const label = document.createElement("span");
+		    label.classList.add("menu-label")
+		    label.innerHTML = obj.characters[i].name;
+		    card.appendChild(label);
+		    // Creates the brief info section
+		    const info = document.createElement("div");
+		    info.classList.add("info");
+		    info.innerHTML = "<hr>Status: ".bold() + obj.characters[i].status.italics() + "<br>"
+		    + "Origin: ".bold() + obj.characters[i].origin.italics() + "<br>"
+		    + "Race: ".bold() + obj.characters[i].race.italics() + "<hr>";
+		    label.appendChild(info);
+		    // Creates the description section
+		    const desc = document.createElement("p");
+		    desc.innerHTML = obj.characters[i].desc + "<br>" + "<br>";
+		    info.appendChild(desc);
+	
+	
+		    // Adds to the card list
+		    const element = document.getElementById("content");
+		    element.appendChild(card);
+        }
+		else { // Creates the fake Elros card
+			const card = document.createElement("a");
+		    card.href = "/html/bestiary/truth2";
+		    // Adds the faction border
+		    card.classList.add(obj.characters[i].fact);
+		    // Creates the portrait
+		    const portrait = document.createElement("img");
+		    portrait.src = "assets/bestiary/" + obj.characters[i].file + ".jpg";
+		    portrait.classList.add("portrait")
+		    card.appendChild(portrait);
+		    // Creates the name label
+		    const label = document.createElement("span");
+		    label.classList.add("menu-label")
+		    label.innerHTML = obj.characters[i].name;
+		    card.appendChild(label);
+		    // Creates the brief info section
+		    const info = document.createElement("div");
+		    info.classList.add("info");
+		    info.innerHTML = "<hr>Status: ".bold() + obj.characters[i].status.italics() + "<br>"
+		    + "Origin: ".bold() + obj.characters[i].origin.italics() + "<br>"
+		    + "Race: ".bold() + obj.characters[i].race.italics() + "<hr>";
+		    label.appendChild(info);
+		    // Creates the description section
+		    const desc = document.createElement("p");
+		    desc.innerHTML = obj.characters[i].desc + "<br>" + "<br>";
+		    info.appendChild(desc);
+	
+	
+		    // Adds to the card list
+		    const element = document.getElementById("content");
+		    element.appendChild(card);
+		}
 	}
 }
